@@ -180,7 +180,7 @@ gaussian.setNmax(20)
 # 6. Perform the offline phase
 first_mu = (0.5,1.0)
 gaussian.setmu(first_mu)
-gaussian.offline()
+#gaussian.offline()
 
 # 7. Perform an online solve
 online_mu = (0.3,-1.0)

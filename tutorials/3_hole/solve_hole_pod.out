@@ -1,0 +1,3566 @@
+==============================================================
+=             Offline phase begins                           =
+==============================================================
+
+############################## run =  0  ######################################
+truth solve for mu =  (1.3696329217440946, 1.3272256754784681, 0.8795301206351513)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  1  ######################################
+truth solve for mu =  (1.1423844899016014, 1.3634512104504002, 0.5536308826598203)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  2  ######################################
+truth solve for mu =  (1.2671053019203566, 1.4034632357377377, 0.7733591972863559)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  3  ######################################
+truth solve for mu =  (1.0021057323180846, 1.2043217007980613, 0.8902855119700686)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  4  ######################################
+truth solve for mu =  (1.1301479663015785, 1.3103835506292527, 0.1940560609928282)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  5  ######################################
+truth solve for mu =  (1.4821941594840184, 1.1539573760689898, 0.3767492152627161)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  6  ######################################
+truth solve for mu =  (1.0081760437460057, 1.2285884188762315, 0.02503404129747438)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  7  ######################################
+truth solve for mu =  (1.0998783083663897, 1.1851726748040785, 0.7586403723365895)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  8  ######################################
+truth solve for mu =  (1.482138273770977, 1.1727231303506005, 0.6064625891149826)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  9  ######################################
+truth solve for mu =  (1.46214342805345, 1.2369634341561697, 0.08029714520142622)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  10  ######################################
+truth solve for mu =  (1.1903862399144058, 1.0069543995210402, 0.5458126077421033)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  11  ######################################
+truth solve for mu =  (1.2337903244313648, 1.4018493512626404, 0.02724560190553671)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  12  ######################################
+truth solve for mu =  (1.389216900528547, 1.4633160126091354, 0.6749698635205064)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  13  ######################################
+truth solve for mu =  (1.007605045112111, 1.2735537434731916, 0.37086311647178066)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  14  ######################################
+truth solve for mu =  (1.1901948696770066, 1.4891690068998535, 0.5569873166783735)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  15  ######################################
+truth solve for mu =  (1.027402158748374, 1.4567053171999889, 0.037047143722227074)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  16  ######################################
+truth solve for mu =  (1.0116767654427965, 1.218215316913203, 0.5559894436412134)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  17  ######################################
+truth solve for mu =  (1.3794515442359117, 1.0233638045557276, 0.8952130534744852)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  18  ######################################
+truth solve for mu =  (1.021483985805386, 1.2093623448124615, 0.33533074154983444)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  19  ######################################
+truth solve for mu =  (1.320462570384449, 1.3665323173054769, 0.990633920026436)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  20  ######################################
+truth solve for mu =  (1.409033221096244, 1.0162753661691075, 0.7335214805314232)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  21  ######################################
+truth solve for mu =  (1.357383738021899, 1.3042632340619853, 0.4939674930343735)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  22  ######################################
+truth solve for mu =  (1.3154939914753878, 1.3920606351818732, 0.4057596213778707)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  23  ######################################
+truth solve for mu =  (1.2400145858907883, 1.0812190123212941, 0.28942682774005574)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  24  ######################################
+truth solve for mu =  (1.4261395693859362, 1.1137346701470485, 0.3642621545675561)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  25  ######################################
+truth solve for mu =  (1.1322758230620047, 1.0895731381843332, 0.3035451132038526)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  26  ######################################
+truth solve for mu =  (1.0508188982119524, 1.2439858789033214, 0.8952363639502385)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  27  ######################################
+truth solve for mu =  (1.2950378965618217, 1.255109331401162, 0.20984142597769068)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  28  ######################################
+truth solve for mu =  (1.1290299903694945, 1.0091909985726994, 0.2212841075307337)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  29  ######################################
+truth solve for mu =  (1.2780446915506365, 1.1718710972414983, 0.40368026716022454)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  30  ######################################
+truth solve for mu =  (1.4746771215872885, 1.0201395895310086, 0.6704271528999776)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  31  ######################################
+truth solve for mu =  (1.437506537497791, 1.3440401930285175, 0.2742493979196124)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  32  ######################################
+truth solve for mu =  (1.138145973570513, 1.1394754548736745, 0.027310235420061786)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  33  ######################################
+truth solve for mu =  (1.4279038737956302, 1.4149246214078832, 0.6444361328642658)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  34  ######################################
+truth solve for mu =  (1.0024877787634552, 1.3610031017149176, 0.803117657018195)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  35  ######################################
+truth solve for mu =  (1.4433423393895564, 1.414271757482438, 0.02485373872432936)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  36  ######################################
+truth solve for mu =  (1.1883598380748195, 1.210250596559048, 0.7318779736071198)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  37  ######################################
+truth solve for mu =  (1.3848342511809821, 1.1569675953779375, 0.9464776321421111)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  38  ######################################
+truth solve for mu =  (1.431646605108661, 1.099489975718536, 0.6543212611112799)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  39  ######################################
+truth solve for mu =  (1.0716085634673564, 1.0187854024710647, 0.9378021948227965)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  40  ######################################
+truth solve for mu =  (1.1877970908061735, 1.0212360167172485, 0.09010981766783889)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  41  ######################################
+truth solve for mu =  (1.048449331988873, 1.1475722296630093, 0.9363461791336843)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  42  ######################################
+truth solve for mu =  (1.3309417172189422, 1.2718324884649104, 0.35679556408906893)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  43  ######################################
+truth solve for mu =  (1.2019420336841302, 1.057615468642319, 0.6736431126900497)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  44  ######################################
+truth solve for mu =  (1.4948982048904016, 1.0734643742192098, 0.44672387291680676)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  45  ######################################
+truth solve for mu =  (1.2321807150135589, 1.0147849748838618, 0.25918654574321287)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  46  ######################################
+truth solve for mu =  (1.2644151256045797, 1.234441070428718, 0.1714770182546754)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  47  ######################################
+truth solve for mu =  (1.4940705480499672, 1.3703736402748508, 0.3534325926680677)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  48  ######################################
+truth solve for mu =  (1.448165402502527, 1.131603692455457, 0.6104846536028306)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  49  ######################################
+truth solve for mu =  (1.1583397082067224, 1.410074230134743, 0.5237206988804852)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  50  ######################################
+truth solve for mu =  (1.4799262822077093, 1.4271497316850992, 0.5193350544613924)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  51  ######################################
+truth solve for mu =  (1.2873414110669679, 1.044308076056968, 0.5938366970348591)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  52  ######################################
+truth solve for mu =  (1.0133138587388875, 1.2281733745587662, 0.5927909869818003)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  53  ######################################
+truth solve for mu =  (1.1555534563386751, 1.38991257636365, 0.3315936438773484)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  54  ######################################
+truth solve for mu =  (1.0532771684694895, 1.1153904081158008, 0.5877495900464443)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  55  ######################################
+truth solve for mu =  (1.3807631550910187, 1.1041213039419322, 0.8849604719291823)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  56  ######################################
+truth solve for mu =  (1.0467713159575491, 1.1176171256916332, 0.13271755570647348)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  57  ######################################
+truth solve for mu =  (1.0299975467211508, 1.1171151709728848, 0.8270169813932521)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  58  ######################################
+truth solve for mu =  (1.1674606705596482, 1.1561907519470642, 0.3555011603158736)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  59  ######################################
+truth solve for mu =  (1.016177178342639, 1.0559841747623753, 0.7505260124820512)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  60  ######################################
+truth solve for mu =  (1.0398360653320542, 1.3125613930880042, 0.6169500330311137)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  61  ######################################
+truth solve for mu =  (1.4178878953343164, 1.146225261723997, 0.3987202070452022)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  62  ######################################
+truth solve for mu =  (1.1393146446068356, 1.1998385238699114, 0.6429591200650685)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  63  ######################################
+truth solve for mu =  (1.4914565793259136, 1.1612855728013514, 0.15380358386842757)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  64  ######################################
+truth solve for mu =  (1.0584066249026305, 1.269496722851676, 0.2110219643696792)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  65  ######################################
+truth solve for mu =  (1.1508511012775757, 1.0775288395043263, 0.03930520216070114)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  66  ######################################
+truth solve for mu =  (1.4563222351041625, 1.1540809076131602, 0.5203520499481354)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  67  ######################################
+truth solve for mu =  (1.4614254985867934, 1.0483519064384728, 0.9544000264946149)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  68  ######################################
+truth solve for mu =  (1.3295392673320325, 1.0993199505994649, 0.26126999014212177)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  69  ######################################
+truth solve for mu =  (1.46045203797786, 1.4213027631304607, 0.8722630863580897)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  70  ######################################
+truth solve for mu =  (1.0610936841441703, 1.2947588345558565, 0.7749082076088939)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  71  ######################################
+truth solve for mu =  (1.318738004945526, 1.1138322049605518, 0.2714202481099285)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  72  ######################################
+truth solve for mu =  (1.271754788431113, 1.2496266289825337, 0.23678670944600227)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  73  ######################################
+truth solve for mu =  (1.277908532571696, 1.126472115530422, 0.42635294900280457)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  74  ######################################
+truth solve for mu =  (1.3841202127043766, 1.3855511281876904, 0.10504397251984071)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  75  ######################################
+truth solve for mu =  (1.4402211435045822, 1.1158583910787323, 0.07172369838105687)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  76  ######################################
+truth solve for mu =  (1.4848256391761434, 1.1476506111663127, 0.5024041385704844)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  77  ######################################
+truth solve for mu =  (1.1726565178938995, 1.2400334321997184, 0.37092497903873556)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  78  ######################################
+truth solve for mu =  (1.4528390419416533, 1.4159884511168106, 0.11675177700132419)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  79  ######################################
+truth solve for mu =  (1.0893372076626933, 1.0262247857087674, 0.7685913490453462)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  80  ######################################
+truth solve for mu =  (1.0574607283874264, 1.3284288643617637, 0.7312159532268253)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  81  ######################################
+truth solve for mu =  (1.0555884564836666, 1.3821625895934333, 0.34235876646043206)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  82  ######################################
+truth solve for mu =  (1.147175737423723, 1.4043639098904401, 0.05038427743580344)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  83  ######################################
+truth solve for mu =  (1.240964191462104, 1.0096716234544432, 0.14762096147011544)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  84  ######################################
+truth solve for mu =  (1.240345071537712, 1.2973889102191896, 0.34462374754742015)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  85  ######################################
+truth solve for mu =  (1.1541612136723123, 1.0993642214159869, 0.3268134828056274)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  86  ######################################
+truth solve for mu =  (1.1958175163460387, 1.0830776668401187, 0.42733076745237836)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  87  ######################################
+truth solve for mu =  (1.421362719382474, 1.2572474358045538, 0.2792217697150578)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  88  ######################################
+truth solve for mu =  (1.2002690615040663, 1.0324048164164594, 0.9632970625427606)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  89  ######################################
+truth solve for mu =  (1.1542239380978148, 1.3202533964477277, 0.024831700420031962)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  90  ######################################
+truth solve for mu =  (1.317224282792389, 1.2354695179901856, 0.9207898710516147)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  91  ######################################
+truth solve for mu =  (1.2239559723998084, 1.435541133431713, 0.9357238703337971)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  92  ######################################
+truth solve for mu =  (1.239747992542294, 1.1765493010099357, 0.49785063569293336)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  93  ######################################
+truth solve for mu =  (1.4148846307515504, 1.1105559851995292, 0.47833584437366394)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  94  ######################################
+truth solve for mu =  (1.101943283053528, 1.1085872833996033, 0.8674606591532688)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  95  ######################################
+truth solve for mu =  (1.0622318826592891, 1.1661309093923493, 0.9780152886734359)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  96  ######################################
+truth solve for mu =  (1.2784699131230615, 1.3845062575821485, 0.8487727056161639)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  97  ######################################
+truth solve for mu =  (1.297218497256699, 1.108339488026484, 0.46839931620494885)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  98  ######################################
+truth solve for mu =  (1.234147796049778, 1.1526931820480897, 0.6925241389160782)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  99  ######################################
+truth solve for mu =  (1.1424862321894929, 1.2726359339957916, 0.8742015283232399)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  100  ######################################
+truth solve for mu =  (1.3123741561920275, 1.353952097738647, 0.9130522177322161)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  101  ######################################
+truth solve for mu =  (1.190507923764471, 1.3025761123496002, 0.3831703554031878)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  102  ######################################
+truth solve for mu =  (1.495099681590687, 1.323088438980065, 0.48412424621649214)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  103  ######################################
+truth solve for mu =  (1.4410023283602043, 1.467760176371276, 0.19160479336586525)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  104  ######################################
+truth solve for mu =  (1.2622107403206222, 1.335171049512982, 0.5598406749187015)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  105  ######################################
+truth solve for mu =  (1.3453818556958659, 1.1560932353154754, 0.8811208638315028)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  106  ######################################
+truth solve for mu =  (1.1000920090064876, 1.3593285736444425, 0.16233878600990803)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  107  ######################################
+truth solve for mu =  (1.3575382571749133, 1.4969162388085246, 0.46722957427553063)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  108  ######################################
+truth solve for mu =  (1.4031377015435937, 1.396018581771632, 0.8945596757803264)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  109  ######################################
+truth solve for mu =  (1.3197732942091691, 1.0928177875716112, 0.04172717741628718)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  110  ######################################
+truth solve for mu =  (1.1520404341499908, 1.1400052546190995, 0.41783132933799416)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  111  ######################################
+truth solve for mu =  (1.1967440617010876, 1.3732429731468574, 0.3943303052378027)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  112  ######################################
+truth solve for mu =  (1.2235265445046597, 1.4071287196509255, 0.9070910852798868)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  113  ######################################
+truth solve for mu =  (1.1932474871958765, 1.151720920612757, 0.21813442372158476)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  114  ######################################
+truth solve for mu =  (1.2055188825064393, 1.0080184085431316, 0.11278518163556199)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  115  ######################################
+truth solve for mu =  (1.3652114620504963, 1.1525746299074215, 0.6674358233616628)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  116  ######################################
+truth solve for mu =  (1.265029146759972, 1.4773820383809035, 0.8781889831310961)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  117  ######################################
+truth solve for mu =  (1.3583240261138074, 1.483241703975496, 0.26734234012821156)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  118  ######################################
+truth solve for mu =  (1.3916275294577103, 1.137954060990746, 0.7242584782671186)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  119  ######################################
+truth solve for mu =  (1.1532943881132838, 1.2973620881662506, 0.2069622884211526)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  120  ######################################
+truth solve for mu =  (1.255004997303627, 1.0874399550459692, 0.9092223795760901)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  121  ######################################
+truth solve for mu =  (1.2834228463675013, 1.3261593453440268, 0.5741097105130237)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  122  ######################################
+truth solve for mu =  (1.3240211638503974, 1.011630702962127, 0.03065336671896056)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  123  ######################################
+truth solve for mu =  (1.0491060988360124, 1.0940707133205452, 0.8098644076107362)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  124  ######################################
+truth solve for mu =  (1.06545100869416, 1.42976101317128, 0.2239260092499812)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  125  ######################################
+truth solve for mu =  (1.0488987198382644, 1.483450697414933, 0.08897052948641392)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  126  ######################################
+truth solve for mu =  (1.0591427645188631, 1.2501061787680285, 0.9860369897313447)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  127  ######################################
+truth solve for mu =  (1.065896217732412, 1.121586034332897, 0.6406377806280491)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  128  ######################################
+truth solve for mu =  (1.087537584344328, 1.2179404191077066, 0.25906873821089504)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  129  ######################################
+truth solve for mu =  (1.4280997867113951, 1.2022292007860358, 0.7352940522167292)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  130  ######################################
+truth solve for mu =  (1.2186298196664043, 1.4402076223645865, 0.17395156045535656)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  131  ######################################
+truth solve for mu =  (1.4616537364417992, 1.080615971570991, 0.11583324551751993)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  132  ######################################
+truth solve for mu =  (1.2857676290275777, 1.3208355068582014, 0.953885074160922)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  133  ######################################
+truth solve for mu =  (1.0438785923035778, 1.228220575625886, 0.8505977334866652)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  134  ######################################
+truth solve for mu =  (1.0170316659239214, 1.4843690201648065, 0.2644302583504125)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  135  ######################################
+truth solve for mu =  (1.2887172738357457, 1.292045989548689, 0.1748091540159079)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  136  ######################################
+truth solve for mu =  (1.0948132989265282, 1.1253490829606847, 0.8960498237439677)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  137  ######################################
+truth solve for mu =  (1.1143306204022414, 1.180243269487601, 0.6860957821078051)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  138  ######################################
+truth solve for mu =  (1.2584888624702226, 1.3999677359081741, 0.9433052468784637)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  139  ######################################
+truth solve for mu =  (1.4835249829708375, 1.4109933169495485, 0.30306825621531475)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  140  ######################################
+truth solve for mu =  (1.0888599949610431, 1.4692013302603313, 0.19363928083426094)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  141  ######################################
+truth solve for mu =  (1.2021562027688117, 1.194376484432094, 0.28260938460205026)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  142  ######################################
+truth solve for mu =  (1.286684545949346, 1.0150430405978708, 0.8246113760467143)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  143  ######################################
+truth solve for mu =  (1.2215968241081228, 1.419250535038216, 0.595646696694769)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  144  ######################################
+truth solve for mu =  (1.1304502118870083, 1.206155382992231, 0.3612702604206839)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  145  ######################################
+truth solve for mu =  (1.1755649886821138, 1.1445957642167055, 0.192697606886515)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  146  ######################################
+truth solve for mu =  (1.4443838195431273, 1.4153075404460291, 0.9360482079069594)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  147  ######################################
+truth solve for mu =  (1.4690111055252024, 1.4578638448035652, 0.7295124986384587)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  148  ######################################
+truth solve for mu =  (1.3305990264477567, 1.0703461703776442, 0.3321086434300827)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  149  ######################################
+truth solve for mu =  (1.47326849323961, 1.072149409794718, 0.901481290198126)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  150  ######################################
+truth solve for mu =  (1.3290194542423326, 1.1556316876436945, 0.23099018887819045)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  151  ######################################
+truth solve for mu =  (1.2488143878850535, 1.3357357674190573, 0.2588787894851982)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  152  ######################################
+truth solve for mu =  (1.238796211610614, 1.3293992546060367, 0.08498599776057587)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  153  ######################################
+truth solve for mu =  (1.43055646318747, 1.366541303556882, 0.6807502745410356)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  154  ######################################
+truth solve for mu =  (1.1568554006658909, 1.1008764957355575, 0.5176889761979173)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  155  ######################################
+truth solve for mu =  (1.2416399176789301, 1.3832043023741774, 0.5717266608779881)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  156  ######################################
+truth solve for mu =  (1.396942495327003, 1.2617581432339147, 0.8762651715783059)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  157  ######################################
+truth solve for mu =  (1.2234792814517377, 1.2302495520448593, 0.6790138380938804)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  158  ######################################
+truth solve for mu =  (1.349936790826671, 1.308163879035787, 0.35174127552312645)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  159  ######################################
+truth solve for mu =  (1.4105079406112302, 1.3882634345468428, 0.5589030506862737)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  160  ######################################
+truth solve for mu =  (1.4092931657772505, 1.2199969912440585, 0.4072870446551039)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  161  ######################################
+truth solve for mu =  (1.2190216686404918, 1.2684803791676955, 0.6071285761223268)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  162  ######################################
+truth solve for mu =  (1.4192875256410133, 1.257408864959917, 0.23420481289014106)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  163  ######################################
+truth solve for mu =  (1.1992278104866654, 1.28007828785353, 0.2565149855773014)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  164  ######################################
+truth solve for mu =  (1.2586207310276287, 1.402891765971038, 0.9580585010628478)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  165  ######################################
+truth solve for mu =  (1.2291101611646191, 1.488471906930858, 0.8365074736030492)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  166  ######################################
+truth solve for mu =  (1.4907017771076818, 1.3130037586050203, 0.9630417111566473)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  167  ######################################
+truth solve for mu =  (1.0052395234273561, 1.049146243251747, 0.03316780019546094)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  168  ######################################
+truth solve for mu =  (1.2242448340117076, 1.353717940326623, 0.13254296317490277)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  169  ######################################
+truth solve for mu =  (1.072484689088919, 1.3883295533289493, 0.21507167597590615)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  170  ######################################
+truth solve for mu =  (1.1742296461878494, 1.0517158073962807, 0.14914451519894809)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  171  ######################################
+truth solve for mu =  (1.2595960580355103, 1.2106277265228063, 0.4011309768608999)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  172  ######################################
+truth solve for mu =  (1.3802819754798799, 1.3021969522328065, 0.9346490643355518)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  173  ######################################
+truth solve for mu =  (1.0035882612936609, 1.2997419426623225, 0.055961739101448055)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  174  ######################################
+truth solve for mu =  (1.260184954736268, 1.3610812033052373, 0.1540686896505026)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  175  ######################################
+truth solve for mu =  (1.0913726013952785, 1.3650992157627906, 0.9475886515884275)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  176  ######################################
+truth solve for mu =  (1.3046291044914713, 1.1410036232413585, 0.8710127711812048)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  177  ######################################
+truth solve for mu =  (1.4572954251369141, 1.371782262913093, 0.5544361861675096)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  178  ######################################
+truth solve for mu =  (1.4964183209691169, 1.2224011605075187, 0.9746337820446265)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  179  ######################################
+truth solve for mu =  (1.1475759723726644, 1.4226861920685678, 0.7186056899203073)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  180  ######################################
+truth solve for mu =  (1.2197254910746498, 1.4540426578981365, 0.522717204204893)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  181  ######################################
+truth solve for mu =  (1.0274510502648242, 1.3784476336320504, 0.32442144888974805)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  182  ######################################
+truth solve for mu =  (1.3259893800856914, 1.1220298826722195, 0.8817678760234616)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  183  ######################################
+truth solve for mu =  (1.1675749136422833, 1.0418863168240589, 0.4653490049997645)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  184  ######################################
+truth solve for mu =  (1.1369550857120734, 1.284255315531313, 0.6181035684357543)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  185  ######################################
+truth solve for mu =  (1.387314003482034, 1.4977673445145254, 0.34422265740666413)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  186  ######################################
+truth solve for mu =  (1.4544043874962507, 1.281891839366442, 0.3298287375181064)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  187  ######################################
+truth solve for mu =  (1.4008522000154902, 1.2685597826567374, 0.7584225825207419)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  188  ######################################
+truth solve for mu =  (1.272561023785793, 1.3559423700922857, 0.33200634024346004)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  189  ######################################
+truth solve for mu =  (1.2297611633117809, 1.210368927929846, 0.29670381515550426)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  190  ######################################
+truth solve for mu =  (1.3707202408144794, 1.3341091863393355, 0.5187587085039194)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  191  ######################################
+truth solve for mu =  (1.403097422762134, 1.141496991698222, 0.18247763196276492)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  192  ######################################
+truth solve for mu =  (1.269399068113048, 1.4580204400739532, 0.7104187357007204)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  193  ######################################
+truth solve for mu =  (1.2956490764094362, 1.4432283399496546, 0.253760227207681)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  194  ######################################
+truth solve for mu =  (1.0669807926443537, 1.0057887956563474, 0.03906909125225498)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  195  ######################################
+truth solve for mu =  (1.1934453224457011, 1.2829197491678148, 0.4631050646659017)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  196  ######################################
+truth solve for mu =  (1.2086513286321712, 1.113265231679534, 0.037574648522716296)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  197  ######################################
+truth solve for mu =  (1.0839152611507856, 1.0497270924400777, 0.6275737090735911)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  198  ######################################
+truth solve for mu =  (1.4270125323389646, 1.4663659190424798, 0.8151440338526369)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  199  ######################################
+truth solve for mu =  (1.251074365345784, 1.4373606653580744, 0.9871973039062696)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  200  ######################################
+truth solve for mu =  (1.0369144129648995, 1.3431857138095276, 0.09933716203576258)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  201  ######################################
+truth solve for mu =  (1.3508227361893774, 1.0051354502967098, 0.6099326508398972)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  202  ######################################
+truth solve for mu =  (1.462730589988368, 1.2199667272125487, 0.7362225497006833)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  203  ######################################
+truth solve for mu =  (1.4112097762438767, 1.330683035331112, 0.8274050056053847)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  204  ######################################
+truth solve for mu =  (1.2847522202666468, 1.071314118836483, 0.30756813711908076)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  205  ######################################
+truth solve for mu =  (1.1933729647980915, 1.4828366317374653, 0.9298725414828334)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  206  ######################################
+truth solve for mu =  (1.2789072109665953, 1.146368510381268, 0.8002924398854281)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  207  ######################################
+truth solve for mu =  (1.0470107631236978, 1.262094328017334, 0.7757570984161495)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  208  ######################################
+truth solve for mu =  (1.3697289875199026, 1.4926192908531049, 0.48537265306375277)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  209  ######################################
+truth solve for mu =  (1.1394313155856155, 1.1195945134380731, 0.5005405614482361)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  210  ######################################
+truth solve for mu =  (1.1915488270941004, 1.0666995251799898, 0.7235532682690087)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  211  ######################################
+truth solve for mu =  (1.2526827049373108, 1.4335986753554812, 0.8670060918475003)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  212  ######################################
+truth solve for mu =  (1.0945816007017455, 1.1370736051067216, 0.7157912427553565)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  213  ######################################
+truth solve for mu =  (1.1311032539072783, 1.337334768500591, 0.16622455239949652)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  214  ######################################
+truth solve for mu =  (1.4325345546218093, 1.29196340663677, 0.9545612747440622)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  215  ######################################
+truth solve for mu =  (1.098654748335722, 1.2486559677382747, 0.3760638524463359)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  216  ######################################
+truth solve for mu =  (1.182183092711809, 1.2753628560912273, 0.646423013579621)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  217  ######################################
+truth solve for mu =  (1.1111192430143575, 1.0396769068626157, 0.03260852328185106)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  218  ######################################
+truth solve for mu =  (1.1817207958901592, 1.486700456899337, 0.11709041134197305)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  219  ######################################
+truth solve for mu =  (1.2839402159988316, 1.1339832136740418, 0.47484516604516647)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  220  ######################################
+truth solve for mu =  (1.0817797099630808, 1.3173827952229522, 0.572179570435139)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  221  ######################################
+truth solve for mu =  (1.4324230941505849, 1.2927611344300236, 0.015708456053405276)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  222  ######################################
+truth solve for mu =  (1.2656261562998294, 1.3656198887808593, 0.28466454206369346)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  223  ######################################
+truth solve for mu =  (1.296745173910538, 1.1696257298402104, 0.16972108129556493)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  224  ######################################
+truth solve for mu =  (1.030334814751646, 1.2554385786322384, 0.9470855810773485)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  225  ######################################
+truth solve for mu =  (1.374070923479925, 1.2506184529828808, 0.2567849749840709)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  226  ######################################
+truth solve for mu =  (1.486716771144311, 1.1661379883188934, 0.5761548786339886)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  227  ######################################
+truth solve for mu =  (1.309523390179428, 1.2947089613437708, 0.6154407444885847)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  228  ######################################
+truth solve for mu =  (1.0818629384207825, 1.1708019434811934, 0.7039438197102794)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  229  ######################################
+truth solve for mu =  (1.03361293342475, 1.3473524256874712, 0.07569311094185506)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  230  ######################################
+truth solve for mu =  (1.0904964892294327, 1.1957349075574593, 0.3873901065519976)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  231  ######################################
+truth solve for mu =  (1.102550723907195, 1.2741461178849924, 0.09078557995308609)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  232  ######################################
+truth solve for mu =  (1.0055201405899534, 1.0454154620191671, 0.7173730711633316)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  233  ######################################
+truth solve for mu =  (1.3871519448647618, 1.4564254925038567, 0.2681797313535839)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  234  ######################################
+truth solve for mu =  (1.077979824776076, 1.0082261752637827, 0.358303552123941)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  235  ######################################
+truth solve for mu =  (1.3724689964455858, 1.0811627132726536, 0.4605601294871503)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  236  ######################################
+truth solve for mu =  (1.332398780113817, 1.0524099508260303, 0.06342283415510594)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  237  ######################################
+truth solve for mu =  (1.2824748315862977, 1.1515769400998075, 0.022466575192772495)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  238  ######################################
+truth solve for mu =  (1.4671895711350966, 1.485372060479941, 0.2786084550206288)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  239  ######################################
+truth solve for mu =  (1.0371381520087983, 1.1694464872525931, 0.03807627392623599)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  240  ######################################
+truth solve for mu =  (1.109338598623824, 1.279446945754795, 0.7411972440059044)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  241  ######################################
+truth solve for mu =  (1.367838752273502, 1.4077580644680538, 0.5910491005718204)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  242  ######################################
+truth solve for mu =  (1.146024543836661, 1.338162053452313, 0.7609648006403538)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  243  ######################################
+truth solve for mu =  (1.183395262605581, 1.4803527467346274, 0.3584106313946546)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  244  ######################################
+truth solve for mu =  (1.2745417982354472, 1.3992372337937664, 0.4813560419093395)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  245  ######################################
+truth solve for mu =  (1.022791738028351, 1.2390471833372259, 0.8510746136059124)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  246  ######################################
+truth solve for mu =  (1.3699131361909673, 1.0219665446248043, 0.05034967302278571)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  247  ######################################
+truth solve for mu =  (1.2436056150058596, 1.2734383652908088, 0.5355896299605506)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  248  ######################################
+truth solve for mu =  (1.0920020805804245, 1.1666053906393925, 0.41050483232851204)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  249  ######################################
+truth solve for mu =  (1.1827412493820757, 1.341704795948117, 0.4631414573483136)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  250  ######################################
+truth solve for mu =  (1.3350971978920465, 1.244019319535743, 0.08546013377547314)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  251  ######################################
+truth solve for mu =  (1.1715534403721763, 1.173517004659872, 0.7621532930093722)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  252  ######################################
+truth solve for mu =  (1.1711367024553316, 1.0158531244148945, 0.30776597938288547)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  253  ######################################
+truth solve for mu =  (1.3324569529689712, 1.4147389249216682, 0.4877709755532562)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  254  ######################################
+truth solve for mu =  (1.107955385612382, 1.1440632814650649, 0.992103830800246)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  255  ######################################
+truth solve for mu =  (1.2663279777532641, 1.1094540556963126, 0.23748759087596524)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  256  ######################################
+truth solve for mu =  (1.4507078686780635, 1.4484684114022606, 0.8983931547027193)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  257  ######################################
+truth solve for mu =  (1.223434876621111, 1.4443427931888464, 0.21681324324040388)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  258  ######################################
+truth solve for mu =  (1.1229527440873666, 1.2755405569534437, 0.10795502713576084)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  259  ######################################
+truth solve for mu =  (1.2860226841560751, 1.1010522529423885, 0.08239254512415677)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  260  ######################################
+truth solve for mu =  (1.0021311424958448, 1.3170058834891227, 0.9153548191631378)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  261  ######################################
+truth solve for mu =  (1.0127798286209677, 1.1573427877985698, 0.6094517566854724)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  262  ######################################
+truth solve for mu =  (1.1508258480714089, 1.343307641986835, 0.6098256793190273)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  263  ######################################
+truth solve for mu =  (1.233193206806385, 1.280046423523212, 0.026390181716639843)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  264  ######################################
+truth solve for mu =  (1.4109410942804437, 1.2581613682751511, 0.28191098794384767)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  265  ######################################
+truth solve for mu =  (1.107664759189952, 1.295612099606589, 0.46807652795975596)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  266  ######################################
+truth solve for mu =  (1.4882780019032034, 1.1634379441797034, 0.894518710527335)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  267  ######################################
+truth solve for mu =  (1.3324627036336223, 1.0517785457734332, 0.8681816269755267)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  268  ######################################
+truth solve for mu =  (1.0583459494570244, 1.279614701587537, 0.883376542209965)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  269  ######################################
+truth solve for mu =  (1.011332591446996, 1.4945948573944188, 0.6520581441813864)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  270  ######################################
+truth solve for mu =  (1.392300575780769, 1.4531655412734965, 0.13518572608925364)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  271  ######################################
+truth solve for mu =  (1.3708980955600722, 1.072420833983362, 0.710039401149495)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  272  ######################################
+truth solve for mu =  (1.3404961501607302, 1.1440524338841744, 0.2735908269887815)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  273  ######################################
+truth solve for mu =  (1.0407540254087415, 1.49486061007609, 0.646827305401756)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  274  ######################################
+truth solve for mu =  (1.2023533642997903, 1.487632416827337, 0.5481648268522409)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  275  ######################################
+truth solve for mu =  (1.423672551666563, 1.2298720961898644, 0.35772844832272643)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  276  ######################################
+truth solve for mu =  (1.2633386750026276, 1.253604533467006, 0.549870262615388)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  277  ######################################
+truth solve for mu =  (1.0022406296805864, 1.4475065976135084, 0.8423437905442963)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  278  ######################################
+truth solve for mu =  (1.3521857640326795, 1.2098051452905, 0.6616958030619113)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  279  ######################################
+truth solve for mu =  (1.4168383154930395, 1.4880602218215624, 0.4941826322281132)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  280  ######################################
+truth solve for mu =  (1.3703700957173257, 1.3960685554775831, 0.10372744486669985)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  281  ######################################
+truth solve for mu =  (1.2729624496536933, 1.4169275349197314, 0.6595503055614608)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  282  ######################################
+truth solve for mu =  (1.1946538471711792, 1.4184607931581314, 0.3917033728240497)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  283  ######################################
+truth solve for mu =  (1.0807855110812723, 1.2108888053286078, 0.6763955520535981)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  284  ######################################
+truth solve for mu =  (1.3130111029585503, 1.4397073687751154, 0.5940352764918049)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  285  ######################################
+truth solve for mu =  (1.2127383917326886, 1.1614684521990306, 0.9770526194116268)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  286  ######################################
+truth solve for mu =  (1.486735075868131, 1.0562021941088173, 0.45588870507058527)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  287  ######################################
+truth solve for mu =  (1.075566098685433, 1.271892802582297, 0.42358065043689785)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  288  ######################################
+truth solve for mu =  (1.3226968744964034, 1.4481429980114808, 0.7074624282842933)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  289  ######################################
+truth solve for mu =  (1.0066068444754643, 1.3040452019794972, 0.14736036071242134)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  290  ######################################
+truth solve for mu =  (1.4455477046475855, 1.1417519218998307, 0.6790823155336083)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  291  ######################################
+truth solve for mu =  (1.137105854155668, 1.384821667762385, 0.8757607991118265)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  292  ######################################
+truth solve for mu =  (1.323986988775301, 1.2894571769096952, 0.3448751350319532)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  293  ######################################
+truth solve for mu =  (1.257849153349942, 1.4654202914612924, 0.5066224181143547)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  294  ######################################
+truth solve for mu =  (1.285589399038644, 1.4670429264509437, 0.04359745870228831)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  295  ######################################
+truth solve for mu =  (1.2228991141729102, 1.0475113299135947, 0.2551732083334389)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  296  ######################################
+truth solve for mu =  (1.1967487478562533, 1.0873301809196638, 0.3970530433492664)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  297  ######################################
+truth solve for mu =  (1.4871179220183404, 1.3881122366842624, 0.7997400946568067)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  298  ######################################
+truth solve for mu =  (1.0810697342949251, 1.2284429573230682, 0.7790210916784687)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  299  ######################################
+truth solve for mu =  (1.0801937171290181, 1.4062867294706076, 0.28221934749335803)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  300  ######################################
+truth solve for mu =  (1.0487656793620697, 1.0584900242989226, 0.370636672040082)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  301  ######################################
+truth solve for mu =  (1.3697773144368641, 1.319033925285683, 0.13235569763306615)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  302  ######################################
+truth solve for mu =  (1.333143392830756, 1.064301810865435, 0.1277427100005243)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  303  ######################################
+truth solve for mu =  (1.2142410053639316, 1.0197019581842048, 0.41517232020607603)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  304  ######################################
+truth solve for mu =  (1.3871345463157834, 1.1428929813890778, 0.3391359548952211)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  305  ######################################
+truth solve for mu =  (1.2768001214592215, 1.361484124849433, 0.7874281120334639)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  306  ######################################
+truth solve for mu =  (1.3291766308696968, 1.108267068819844, 0.7319754521428686)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  307  ######################################
+truth solve for mu =  (1.0146820117852993, 1.0531259948349958, 0.9963449904407813)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  308  ######################################
+truth solve for mu =  (1.0308588917323098, 1.0532898522261935, 0.12831548522910896)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  309  ######################################
+truth solve for mu =  (1.430395870827674, 1.098029473706082, 0.15045120523159056)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  310  ######################################
+truth solve for mu =  (1.1047635133868674, 1.3532548485147278, 0.8023318751860481)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  311  ######################################
+truth solve for mu =  (1.2169986180487808, 1.497092809855697, 0.7685228465126808)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  312  ######################################
+truth solve for mu =  (1.2476084898928543, 1.2901465239367398, 0.6924376207063022)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  313  ######################################
+truth solve for mu =  (1.077732071802155, 1.1279396164318478, 0.014721177130032903)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  314  ######################################
+truth solve for mu =  (1.389469677746854, 1.2624688403195505, 0.6651582716752766)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  315  ######################################
+truth solve for mu =  (1.462498705227675, 1.0688170340355794, 0.01917957405608124)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  316  ######################################
+truth solve for mu =  (1.1028134612442086, 1.2643204093911644, 0.3793788176449754)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  317  ######################################
+truth solve for mu =  (1.4956425163072775, 1.0445134331034496, 0.4541599584332234)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  318  ######################################
+truth solve for mu =  (1.3580736786016725, 1.3698402180199234, 0.6588255164496368)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  319  ######################################
+truth solve for mu =  (1.4618774366955276, 1.3336112087987937, 0.910098384497507)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  320  ######################################
+truth solve for mu =  (1.2471635704042183, 1.2854202869366766, 0.15843804330970487)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  321  ######################################
+truth solve for mu =  (1.4956176032534694, 1.2534024601706284, 0.7489800091057628)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  322  ######################################
+truth solve for mu =  (1.388484356404816, 1.3418477143589351, 0.26414437840949384)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  323  ######################################
+truth solve for mu =  (1.3977343277377234, 1.4100617705926979, 0.8212738262850799)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  324  ######################################
+truth solve for mu =  (1.1235927928531289, 1.4980199635838651, 0.18178533045197337)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  325  ######################################
+truth solve for mu =  (1.1470822316349574, 1.4330604533371702, 0.39404069463528163)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  326  ######################################
+truth solve for mu =  (1.2215537395257408, 1.3568909793214092, 0.9013841239473044)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  327  ######################################
+truth solve for mu =  (1.2295440900730608, 1.437403721531233, 0.8186852078466896)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  328  ######################################
+truth solve for mu =  (1.43638956504782, 1.4759604397675439, 0.7086646756348945)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  329  ######################################
+truth solve for mu =  (1.2433152221421147, 1.4057744650170523, 0.4670631830079817)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  330  ######################################
+truth solve for mu =  (1.1332274249588399, 1.1185675799548276, 0.37831996661708034)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  331  ######################################
+truth solve for mu =  (1.3150530009213923, 1.3400540390443052, 0.8798954531030628)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  332  ######################################
+truth solve for mu =  (1.1230847313187684, 1.1139060961133078, 0.8849841898095284)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  333  ######################################
+truth solve for mu =  (1.1256807578814039, 1.3543744385490495, 0.2403961078465998)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  334  ######################################
+truth solve for mu =  (1.0328229036579826, 1.385921055289018, 0.46972273536553877)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  335  ######################################
+truth solve for mu =  (1.2617398968387135, 1.176201264705921, 0.4332753563572225)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  336  ######################################
+truth solve for mu =  (1.2819644272721809, 1.2081900253533644, 0.7247844666521724)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  337  ######################################
+truth solve for mu =  (1.2252415889086334, 1.4010878186033526, 0.12756559330398273)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  338  ######################################
+truth solve for mu =  (1.172077932924255, 1.0742176660341152, 0.6829435410983903)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  339  ######################################
+truth solve for mu =  (1.1818492201958661, 1.280076453448074, 0.19872175906481743)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  340  ######################################
+truth solve for mu =  (1.1524214214948276, 1.24760584430099, 0.17307279340810314)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  341  ######################################
+truth solve for mu =  (1.4312932635269013, 1.2086055287753954, 0.585437038241365)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  342  ######################################
+truth solve for mu =  (1.1174829623035056, 1.0392823831121576, 0.28930352665603437)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  343  ######################################
+truth solve for mu =  (1.3408990676260126, 1.348252740053648, 0.8734735456464562)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  344  ######################################
+truth solve for mu =  (1.0532865822183348, 1.2890808677794607, 0.09969727388190189)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  345  ######################################
+truth solve for mu =  (1.3535785101840525, 1.4843784148382428, 0.5441017750418448)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  346  ######################################
+truth solve for mu =  (1.4496240750640403, 1.174262498540535, 0.010986795927104609)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  347  ######################################
+truth solve for mu =  (1.1460531553392297, 1.0291841144969858, 0.46970381277911444)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  348  ######################################
+truth solve for mu =  (1.2692376689327003, 1.4478866622288376, 0.08661464444952202)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  349  ######################################
+truth solve for mu =  (1.1571330135927886, 1.3983642234233704, 0.105370175230695)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  350  ######################################
+truth solve for mu =  (1.1540884891377103, 1.0715078659116046, 0.4547702391115593)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  351  ######################################
+truth solve for mu =  (1.2823714872553003, 1.3300943583233493, 0.42733102024231817)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  352  ######################################
+truth solve for mu =  (1.3245500658608138, 1.338615771134199, 0.46602710848862594)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  353  ######################################
+truth solve for mu =  (1.1078386448288229, 1.1207416570487263, 0.4044544794666506)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  354  ######################################
+truth solve for mu =  (1.4541521239023676, 1.0644702910394965, 0.12381002422926)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  355  ######################################
+truth solve for mu =  (1.3304672602393324, 1.4263458362012047, 0.4699393299382408)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  356  ######################################
+truth solve for mu =  (1.417531638618054, 1.3491522922038284, 0.527825090540798)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  357  ######################################
+truth solve for mu =  (1.1103237528774754, 1.3213174835508084, 0.6708967393113068)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  358  ######################################
+truth solve for mu =  (1.1542906255462717, 1.2608357416443996, 0.5304387075548493)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  359  ######################################
+truth solve for mu =  (1.1691395924136607, 1.403455937602115, 0.6835778960951193)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  360  ######################################
+truth solve for mu =  (1.0997731067744914, 1.252302357509059, 0.6636726532846356)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  361  ######################################
+truth solve for mu =  (1.2917143407681828, 1.2176043242545413, 0.9054776328525542)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  362  ######################################
+truth solve for mu =  (1.354282363131862, 1.1816312316325344, 0.41045429120332166)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  363  ######################################
+truth solve for mu =  (1.239482003310148, 1.4453780920384318, 0.13894135329555005)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  364  ######################################
+truth solve for mu =  (1.1959809256084184, 1.4445843551528552, 0.5681016948225128)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  365  ######################################
+truth solve for mu =  (1.2350400668221146, 1.336924085584218, 0.6841464746237612)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  366  ######################################
+truth solve for mu =  (1.2911202678452178, 1.459798842012891, 0.29204610341468046)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  367  ######################################
+truth solve for mu =  (1.3009095972622586, 1.3348396479488087, 0.7164183141113728)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  368  ######################################
+truth solve for mu =  (1.0689125893639086, 1.144513658540695, 0.66985651130322)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  369  ######################################
+truth solve for mu =  (1.2796519458792026, 1.3647140450445003, 0.9675064049945151)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  370  ######################################
+truth solve for mu =  (1.4358712158084703, 1.1027040525409513, 0.7868009722856397)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  371  ######################################
+truth solve for mu =  (1.419967874613543, 1.3717453712798768, 0.8320699011940628)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  372  ######################################
+truth solve for mu =  (1.0083596369379866, 1.0391660916935281, 0.039050283610060674)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  373  ######################################
+truth solve for mu =  (1.045973842161413, 1.00297789308117, 0.09909238748345592)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  374  ######################################
+truth solve for mu =  (1.4889565866448842, 1.466979737823583, 0.930902920579355)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  375  ######################################
+truth solve for mu =  (1.379735765439549, 1.0185310603749795, 0.7181664646758623)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  376  ######################################
+truth solve for mu =  (1.4261199491847865, 1.3173017487902394, 0.39896431428682827)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  377  ######################################
+truth solve for mu =  (1.2756957793599066, 1.1595430524607728, 0.9756933915020403)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  378  ######################################
+truth solve for mu =  (1.4821974169332492, 1.2373144895530888, 0.9176774903953453)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  379  ######################################
+truth solve for mu =  (1.0657969549508024, 1.3555311115475663, 0.8077306929266568)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  380  ######################################
+truth solve for mu =  (1.0402392096723874, 1.0089073666754516, 0.8415735877395809)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  381  ######################################
+truth solve for mu =  (1.481077850485012, 1.3748172414268467, 0.46608643974875263)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  382  ######################################
+truth solve for mu =  (1.3140969149821067, 1.3548681310506168, 0.4444539131856816)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  383  ######################################
+truth solve for mu =  (1.3394060289010392, 1.390167993765446, 0.34572679736292317)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  384  ######################################
+truth solve for mu =  (1.1278543751525874, 1.1234950213213715, 0.3620668135826343)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  385  ######################################
+truth solve for mu =  (1.3894580212592416, 1.2189932065868359, 0.9315846991459703)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  386  ######################################
+truth solve for mu =  (1.283450512328551, 1.1882558760651603, 0.9858916975006986)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  387  ######################################
+truth solve for mu =  (1.2277589103806898, 1.022230371644588, 0.14737407227453034)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  388  ######################################
+truth solve for mu =  (1.3970667119328566, 1.0011270967151293, 0.889056633749144)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  389  ######################################
+truth solve for mu =  (1.0352660335712418, 1.0840878027150227, 0.5641383188698459)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  390  ######################################
+truth solve for mu =  (1.3221884127957544, 1.375108531363851, 0.7727833212814507)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  391  ######################################
+truth solve for mu =  (1.3861312949332059, 1.1489004971892403, 0.8198694873221678)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  392  ######################################
+truth solve for mu =  (1.1349243913747573, 1.1555688695494182, 0.7902140557860621)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  393  ######################################
+truth solve for mu =  (1.1829007134732163, 1.3990227595564, 0.2827348455155581)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  394  ######################################
+truth solve for mu =  (1.1269881733519829, 1.3307623375903765, 0.4420499553504101)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  395  ######################################
+truth solve for mu =  (1.0103875882452626, 1.356428002311473, 0.9841664475703529)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  396  ######################################
+truth solve for mu =  (1.059415590154601, 1.4499639097890422, 0.19919257630769013)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  397  ######################################
+truth solve for mu =  (1.1800709957106439, 1.1505400687671656, 0.3207325338294269)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  398  ######################################
+truth solve for mu =  (1.105783968921537, 1.2887440547651605, 0.9620863175432256)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  399  ######################################
+truth solve for mu =  (1.4525798443705102, 1.4720786796369023, 0.6192764127315424)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  400  ######################################
+truth solve for mu =  (1.0338528016965396, 1.2673335423513366, 0.6963788993300039)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  401  ######################################
+truth solve for mu =  (1.0928007158721018, 1.3836755406944314, 0.4815471304440034)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  402  ######################################
+truth solve for mu =  (1.3573098367883984, 1.0694630425644833, 0.39165535104030097)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  403  ######################################
+truth solve for mu =  (1.1213314629236608, 1.3981451369690157, 0.6092843546857335)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  404  ######################################
+truth solve for mu =  (1.1341349996464598, 1.315944373307073, 0.6402125536011737)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  405  ######################################
+truth solve for mu =  (1.0808540558243063, 1.1933362403245447, 0.6153741768489565)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  406  ######################################
+truth solve for mu =  (1.3414264774940778, 1.0286921770854462, 0.7242816481728982)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  407  ######################################
+truth solve for mu =  (1.1222064887957688, 1.4042043491600211, 0.05207295283116996)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  408  ######################################
+truth solve for mu =  (1.2456565719582953, 1.1241813271621006, 0.31537094856124764)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  409  ######################################
+truth solve for mu =  (1.362589257042974, 1.3402840999247716, 0.4920867938230434)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  410  ######################################
+truth solve for mu =  (1.139940770223466, 1.3608725790344085, 0.42271594206013313)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  411  ######################################
+truth solve for mu =  (1.4208574488041608, 1.1784218388062633, 0.8896174185277033)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  412  ######################################
+truth solve for mu =  (1.3418930747073818, 1.2123945279760657, 0.9322085608619941)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  413  ######################################
+truth solve for mu =  (1.4923074672001841, 1.427921541713625, 0.38104105914841435)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  414  ######################################
+truth solve for mu =  (1.0959124009648002, 1.2422106245852353, 0.9738410700805603)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  415  ######################################
+truth solve for mu =  (1.4152653071695143, 1.3104491830033607, 0.7375087930178661)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  416  ######################################
+truth solve for mu =  (1.423297151565431, 1.0372237239360984, 0.27505692992972647)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  417  ######################################
+truth solve for mu =  (1.3518210792574974, 1.2662099964353672, 0.016032145899888578)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  418  ######################################
+truth solve for mu =  (1.1744641208927682, 1.0946285602294192, 0.4770704585171272)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  419  ######################################
+truth solve for mu =  (1.3604930299903186, 1.4101138173764822, 0.9683147400132122)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  420  ######################################
+truth solve for mu =  (1.4361730467814446, 1.1941468414053213, 0.44903734561411346)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  421  ######################################
+truth solve for mu =  (1.3198350382539563, 1.4408748222587604, 0.8705196934450973)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  422  ######################################
+truth solve for mu =  (1.006460083971664, 1.427082046135009, 0.3032318453935107)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  423  ######################################
+truth solve for mu =  (1.1010496980336872, 1.1129001871327173, 0.24812643098981962)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  424  ######################################
+truth solve for mu =  (1.2676687323730558, 1.1252289086013196, 0.35317595571103877)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  425  ######################################
+truth solve for mu =  (1.188596148428162, 1.3364468465437462, 0.1038867080295345)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  426  ######################################
+truth solve for mu =  (1.2539650260692858, 1.0539182623973742, 0.7750049084401902)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  427  ######################################
+truth solve for mu =  (1.1695985585860749, 1.4916431950095177, 0.17832168134064652)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  428  ######################################
+truth solve for mu =  (1.0041167422004276, 1.0461660381130586, 0.35372393888548165)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  429  ######################################
+truth solve for mu =  (1.2428773047552903, 1.0260483851434632, 0.6439794441668072)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  430  ######################################
+truth solve for mu =  (1.0360454946131208, 1.0687423980950168, 0.6457962393060382)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  431  ######################################
+truth solve for mu =  (1.4234546546297175, 1.3883779838649546, 0.9163286941144084)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  432  ######################################
+truth solve for mu =  (1.3579669742933287, 1.3714306540614651, 0.8147480563554088)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  433  ######################################
+truth solve for mu =  (1.4138199214171066, 1.4367631557118536, 0.6873794390911598)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  434  ######################################
+truth solve for mu =  (1.4916515425972634, 1.2664485157275265, 0.3031485176917518)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  435  ######################################
+truth solve for mu =  (1.161921929961111, 1.1939713038372857, 0.5897341053008324)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  436  ######################################
+truth solve for mu =  (1.4862089060360641, 1.4724823513649583, 0.09157467269011926)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  437  ######################################
+truth solve for mu =  (1.4839687143631821, 1.3482562814555397, 0.12369252103435788)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  438  ######################################
+truth solve for mu =  (1.0292968812664944, 1.1503966477397007, 0.5958772304894745)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  439  ######################################
+truth solve for mu =  (1.2443527585728118, 1.1773078191724675, 0.08291731354165514)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  440  ######################################
+truth solve for mu =  (1.1378100564771434, 1.3595162937960503, 0.8951628914050659)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  441  ######################################
+truth solve for mu =  (1.215779236548762, 1.428129394206415, 0.5026018535352211)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  442  ######################################
+truth solve for mu =  (1.4048944062996789, 1.006039605723591, 0.7654766816375849)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  443  ######################################
+truth solve for mu =  (1.245901102115241, 1.232158914399597, 0.5291614710815757)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  444  ######################################
+truth solve for mu =  (1.047099146853128, 1.3030825168634865, 0.2862816946677043)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  445  ######################################
+truth solve for mu =  (1.4586392014674594, 1.2230416386122502, 0.22322655802115343)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  446  ######################################
+truth solve for mu =  (1.295518383466264, 1.4940487381280554, 0.5546535878198204)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  447  ######################################
+truth solve for mu =  (1.0273435425661583, 1.47377319843119, 0.02476460217586688)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  448  ######################################
+truth solve for mu =  (1.1219590919281957, 1.1411568144969118, 0.6567800365392278)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  449  ######################################
+truth solve for mu =  (1.2640064698202864, 1.164571548972992, 0.15372060915074565)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  450  ######################################
+truth solve for mu =  (1.2443866554932594, 1.0319296222074184, 0.6851768105609203)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  451  ######################################
+truth solve for mu =  (1.4752685445168032, 1.4605686619624394, 0.2154437385847052)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  452  ######################################
+truth solve for mu =  (1.3439150171703307, 1.4257141902612267, 0.9400204150011505)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  453  ######################################
+truth solve for mu =  (1.219928527169409, 1.2042619106372916, 0.5710683307725445)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  454  ######################################
+truth solve for mu =  (1.054997429499151, 1.300757934303498, 0.7848107465193335)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  455  ######################################
+truth solve for mu =  (1.2182071740894367, 1.3313106049511494, 0.3276134463129076)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  456  ######################################
+truth solve for mu =  (1.113280087449348, 1.3472921610827704, 0.3005212833257694)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  457  ######################################
+truth solve for mu =  (1.3887092753770813, 1.1542615577072246, 0.6126531385720432)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  458  ######################################
+truth solve for mu =  (1.3868012010941182, 1.3149243749183601, 0.30295739424006124)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  459  ######################################
+truth solve for mu =  (1.3882165171111451, 1.4786970783262607, 0.18654615808371316)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  460  ######################################
+truth solve for mu =  (1.3278845163480115, 1.0928527728277584, 0.2938131911205488)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  461  ######################################
+truth solve for mu =  (1.1248725810586833, 1.2362191669709564, 0.12802683866359252)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  462  ######################################
+truth solve for mu =  (1.3083442983593239, 1.1434154285753164, 0.12135225839224549)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  463  ######################################
+truth solve for mu =  (1.1444912627913326, 1.1351564900366558, 0.4851261227582106)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  464  ######################################
+truth solve for mu =  (1.3885168880180498, 1.3062086146877436, 0.6873329420079407)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  465  ######################################
+truth solve for mu =  (1.1904499232003152, 1.3932073383197123, 0.7871621533372649)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  466  ######################################
+truth solve for mu =  (1.3305405211629107, 1.3670437178027164, 0.26127670803175596)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  467  ######################################
+truth solve for mu =  (1.2131401310961205, 1.3283226484693484, 0.9262590181415162)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  468  ######################################
+truth solve for mu =  (1.0267339024147106, 1.3717286318652793, 0.3302837002311507)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  469  ######################################
+truth solve for mu =  (1.0920778332157695, 1.053895258957549, 0.8529408425170266)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  470  ######################################
+truth solve for mu =  (1.4074664004464505, 1.4466011049464427, 0.21837556053796583)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  471  ######################################
+truth solve for mu =  (1.2754055185880981, 1.4205638112700605, 0.7947963197103279)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  472  ######################################
+truth solve for mu =  (1.2010397521740588, 1.0209528126608687, 0.8895889422917265)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  473  ######################################
+truth solve for mu =  (1.2391952589092503, 1.081280900808926, 0.45460867827226054)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  474  ######################################
+truth solve for mu =  (1.4608061845043312, 1.4020378582739599, 0.025064872971624054)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  475  ######################################
+truth solve for mu =  (1.360957965210138, 1.2209436699967833, 0.888194163906908)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  476  ######################################
+truth solve for mu =  (1.2632528352302315, 1.4020047525620676, 0.5466475094982677)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  477  ######################################
+truth solve for mu =  (1.1787040567396208, 1.0509420759343202, 0.6382291235235407)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  478  ######################################
+truth solve for mu =  (1.0745345471180805, 1.3929815487361943, 0.7117140919287511)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  479  ######################################
+truth solve for mu =  (1.2031923448326334, 1.4408396945343132, 0.36056850066387186)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  480  ######################################
+truth solve for mu =  (1.3574610732960832, 1.0668192077249605, 0.952013896836565)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  481  ######################################
+truth solve for mu =  (1.281989036295695, 1.2515347290016383, 0.5801571403721627)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  482  ######################################
+truth solve for mu =  (1.2011649789255283, 1.185212482191931, 0.39539241981677153)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  483  ######################################
+truth solve for mu =  (1.192772613717648, 1.3284412060700046, 0.2830667793128044)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  484  ######################################
+truth solve for mu =  (1.1766618179570472, 1.4829883847650205, 0.516996525834933)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  485  ######################################
+truth solve for mu =  (1.3485189676572162, 1.099057454596388, 0.9427513614473857)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  486  ######################################
+truth solve for mu =  (1.0167735053289972, 1.0026786913378276, 0.6202870438199789)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  487  ######################################
+truth solve for mu =  (1.3025985370332676, 1.103821842823373, 0.02950828821472002)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  488  ######################################
+truth solve for mu =  (1.1340803050446473, 1.0199094704803704, 0.14908154688859185)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  489  ######################################
+truth solve for mu =  (1.418983059430185, 1.4715856299252088, 0.43630092102502077)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  490  ######################################
+truth solve for mu =  (1.0680545871169085, 1.0887075721917283, 0.7671078502801439)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  491  ######################################
+truth solve for mu =  (1.3674435572520822, 1.1083822888685737, 0.5864981023620541)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  492  ######################################
+truth solve for mu =  (1.1153501283336882, 1.3210996395283483, 0.5246715939201336)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  493  ######################################
+truth solve for mu =  (1.1593409773651806, 1.071733214572383, 0.9150425249581134)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  494  ######################################
+truth solve for mu =  (1.0043471692724708, 1.2189958603324555, 0.6820734200678681)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  495  ######################################
+truth solve for mu =  (1.2388183513863151, 1.4486572062963887, 0.5485230681942108)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  496  ######################################
+truth solve for mu =  (1.087204624221472, 1.4979223190389717, 0.03181204531579242)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  497  ######################################
+truth solve for mu =  (1.154362435093218, 1.0657577029253125, 0.24321809514236115)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  498  ######################################
+truth solve for mu =  (1.0646667216805499, 1.298389605778577, 0.27134014448381294)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## run =  499  ######################################
+truth solve for mu =  (1.0119003480554998, 1.1284946062233574, 0.96582398300807)
+moving mesh
+back to the reference mesh
+update snapshot matrix
+
+############################## perform POD ######################################
+lambda_ 0  =  156929.880337
+lambda_ 1  =  1291.74262667
+lambda_ 2  =  107.692506743
+lambda_ 3  =  29.2056067061
+lambda_ 4  =  2.81133708654
+lambda_ 5  =  1.10312117808
+lambda_ 6  =  0.423067900646
+lambda_ 7  =  0.111148524374
+lambda_ 8  =  0.0791380711792
+lambda_ 9  =  0.0491837803718
+lambda_ 10  =  0.0255253991943
+lambda_ 11  =  0.00589419223943
+lambda_ 12  =  0.00236020793197
+lambda_ 13  =  0.00205274045703
+lambda_ 14  =  0.00122210054208
+lambda_ 15  =  0.000718841749292
+lambda_ 16  =  0.000299967414105
+lambda_ 17  =  0.000272016692903
+lambda_ 18  =  0.000176189174952
+lambda_ 19  =  8.93532550636e-05
+
+build reduced matrices
+
+==============================================================
+=             Offline phase ends                             =
+==============================================================
+
+moving mesh
+*** Warning: Environment variable DOLFIN_NOPLOT set: Plotting disabled.
+back to the reference mesh
+==============================================================
+=             Error analysis begins                          =
+==============================================================
+
+############################## run =  0  ######################################
+############################## run =  1  ######################################
+############################## run =  2  ######################################
+############################## run =  3  ######################################
+############################## run =  4  ######################################
+############################## run =  5  ######################################
+############################## run =  6  ######################################
+############################## run =  7  ######################################
+############################## run =  8  ######################################
+############################## run =  9  ######################################
+############################## run =  10  ######################################
+############################## run =  11  ######################################
+############################## run =  12  ######################################
+############################## run =  13  ######################################
+############################## run =  14  ######################################
+############################## run =  15  ######################################
+############################## run =  16  ######################################
+############################## run =  17  ######################################
+############################## run =  18  ######################################
+############################## run =  19  ######################################
+############################## run =  20  ######################################
+############################## run =  21  ######################################
+############################## run =  22  ######################################
+############################## run =  23  ######################################
+############################## run =  24  ######################################
+############################## run =  25  ######################################
+############################## run =  26  ######################################
+############################## run =  27  ######################################
+############################## run =  28  ######################################
+############################## run =  29  ######################################
+############################## run =  30  ######################################
+############################## run =  31  ######################################
+############################## run =  32  ######################################
+############################## run =  33  ######################################
+############################## run =  34  ######################################
+############################## run =  35  ######################################
+############################## run =  36  ######################################
+############################## run =  37  ######################################
+############################## run =  38  ######################################
+############################## run =  39  ######################################
+############################## run =  40  ######################################
+############################## run =  41  ######################################
+############################## run =  42  ######################################
+############################## run =  43  ######################################
+############################## run =  44  ######################################
+############################## run =  45  ######################################
+############################## run =  46  ######################################
+############################## run =  47  ######################################
+############################## run =  48  ######################################
+############################## run =  49  ######################################
+############################## run =  50  ######################################
+############################## run =  51  ######################################
+############################## run =  52  ######################################
+############################## run =  53  ######################################
+############################## run =  54  ######################################
+############################## run =  55  ######################################
+############################## run =  56  ######################################
+############################## run =  57  ######################################
+############################## run =  58  ######################################
+############################## run =  59  ######################################
+############################## run =  60  ######################################
+############################## run =  61  ######################################
+############################## run =  62  ######################################
+############################## run =  63  ######################################
+############################## run =  64  ######################################
+############################## run =  65  ######################################
+############################## run =  66  ######################################
+############################## run =  67  ######################################
+############################## run =  68  ######################################
+############################## run =  69  ######################################
+############################## run =  70  ######################################
+############################## run =  71  ######################################
+############################## run =  72  ######################################
+############################## run =  73  ######################################
+############################## run =  74  ######################################
+############################## run =  75  ######################################
+############################## run =  76  ######################################
+############################## run =  77  ######################################
+############################## run =  78  ######################################
+############################## run =  79  ######################################
+############################## run =  80  ######################################
+############################## run =  81  ######################################
+############################## run =  82  ######################################
+############################## run =  83  ######################################
+############################## run =  84  ######################################
+############################## run =  85  ######################################
+############################## run =  86  ######################################
+############################## run =  87  ######################################
+############################## run =  88  ######################################
+############################## run =  89  ######################################
+############################## run =  90  ######################################
+############################## run =  91  ######################################
+############################## run =  92  ######################################
+############################## run =  93  ######################################
+############################## run =  94  ######################################
+############################## run =  95  ######################################
+############################## run =  96  ######################################
+############################## run =  97  ######################################
+############################## run =  98  ######################################
+############################## run =  99  ######################################
+############################## run =  100  ######################################
+############################## run =  101  ######################################
+############################## run =  102  ######################################
+############################## run =  103  ######################################
+############################## run =  104  ######################################
+############################## run =  105  ######################################
+############################## run =  106  ######################################
+############################## run =  107  ######################################
+############################## run =  108  ######################################
+############################## run =  109  ######################################
+############################## run =  110  ######################################
+############################## run =  111  ######################################
+############################## run =  112  ######################################
+############################## run =  113  ######################################
+############################## run =  114  ######################################
+############################## run =  115  ######################################
+############################## run =  116  ######################################
+############################## run =  117  ######################################
+############################## run =  118  ######################################
+############################## run =  119  ######################################
+############################## run =  120  ######################################
+############################## run =  121  ######################################
+############################## run =  122  ######################################
+############################## run =  123  ######################################
+############################## run =  124  ######################################
+############################## run =  125  ######################################
+############################## run =  126  ######################################
+############################## run =  127  ######################################
+############################## run =  128  ######################################
+############################## run =  129  ######################################
+############################## run =  130  ######################################
+############################## run =  131  ######################################
+############################## run =  132  ######################################
+############################## run =  133  ######################################
+############################## run =  134  ######################################
+############################## run =  135  ######################################
+############################## run =  136  ######################################
+############################## run =  137  ######################################
+############################## run =  138  ######################################
+############################## run =  139  ######################################
+############################## run =  140  ######################################
+############################## run =  141  ######################################
+############################## run =  142  ######################################
+############################## run =  143  ######################################
+############################## run =  144  ######################################
+############################## run =  145  ######################################
+############################## run =  146  ######################################
+############################## run =  147  ######################################
+############################## run =  148  ######################################
+############################## run =  149  ######################################
+############################## run =  150  ######################################
+############################## run =  151  ######################################
+############################## run =  152  ######################################
+############################## run =  153  ######################################
+############################## run =  154  ######################################
+############################## run =  155  ######################################
+############################## run =  156  ######################################
+############################## run =  157  ######################################
+############################## run =  158  ######################################
+############################## run =  159  ######################################
+############################## run =  160  ######################################
+############################## run =  161  ######################################
+############################## run =  162  ######################################
+############################## run =  163  ######################################
+############################## run =  164  ######################################
+############################## run =  165  ######################################
+############################## run =  166  ######################################
+############################## run =  167  ######################################
+############################## run =  168  ######################################
+############################## run =  169  ######################################
+############################## run =  170  ######################################
+############################## run =  171  ######################################
+############################## run =  172  ######################################
+############################## run =  173  ######################################
+############################## run =  174  ######################################
+############################## run =  175  ######################################
+############################## run =  176  ######################################
+############################## run =  177  ######################################
+############################## run =  178  ######################################
+############################## run =  179  ######################################
+############################## run =  180  ######################################
+############################## run =  181  ######################################
+############################## run =  182  ######################################
+############################## run =  183  ######################################
+############################## run =  184  ######################################
+############################## run =  185  ######################################
+############################## run =  186  ######################################
+############################## run =  187  ######################################
+############################## run =  188  ######################################
+############################## run =  189  ######################################
+############################## run =  190  ######################################
+############################## run =  191  ######################################
+############################## run =  192  ######################################
+############################## run =  193  ######################################
+############################## run =  194  ######################################
+############################## run =  195  ######################################
+############################## run =  196  ######################################
+############################## run =  197  ######################################
+############################## run =  198  ######################################
+############################## run =  199  ######################################
+############################## run =  200  ######################################
+############################## run =  201  ######################################
+############################## run =  202  ######################################
+############################## run =  203  ######################################
+############################## run =  204  ######################################
+############################## run =  205  ######################################
+############################## run =  206  ######################################
+############################## run =  207  ######################################
+############################## run =  208  ######################################
+############################## run =  209  ######################################
+############################## run =  210  ######################################
+############################## run =  211  ######################################
+############################## run =  212  ######################################
+############################## run =  213  ######################################
+############################## run =  214  ######################################
+############################## run =  215  ######################################
+############################## run =  216  ######################################
+############################## run =  217  ######################################
+############################## run =  218  ######################################
+############################## run =  219  ######################################
+############################## run =  220  ######################################
+############################## run =  221  ######################################
+############################## run =  222  ######################################
+############################## run =  223  ######################################
+############################## run =  224  ######################################
+############################## run =  225  ######################################
+############################## run =  226  ######################################
+############################## run =  227  ######################################
+############################## run =  228  ######################################
+############################## run =  229  ######################################
+############################## run =  230  ######################################
+############################## run =  231  ######################################
+############################## run =  232  ######################################
+############################## run =  233  ######################################
+############################## run =  234  ######################################
+############################## run =  235  ######################################
+############################## run =  236  ######################################
+############################## run =  237  ######################################
+############################## run =  238  ######################################
+############################## run =  239  ######################################
+############################## run =  240  ######################################
+############################## run =  241  ######################################
+############################## run =  242  ######################################
+############################## run =  243  ######################################
+############################## run =  244  ######################################
+############################## run =  245  ######################################
+############################## run =  246  ######################################
+############################## run =  247  ######################################
+############################## run =  248  ######################################
+############################## run =  249  ######################################
+############################## run =  250  ######################################
+############################## run =  251  ######################################
+############################## run =  252  ######################################
+############################## run =  253  ######################################
+############################## run =  254  ######################################
+############################## run =  255  ######################################
+############################## run =  256  ######################################
+############################## run =  257  ######################################
+############################## run =  258  ######################################
+############################## run =  259  ######################################
+############################## run =  260  ######################################
+############################## run =  261  ######################################
+############################## run =  262  ######################################
+############################## run =  263  ######################################
+############################## run =  264  ######################################
+############################## run =  265  ######################################
+############################## run =  266  ######################################
+############################## run =  267  ######################################
+############################## run =  268  ######################################
+############################## run =  269  ######################################
+############################## run =  270  ######################################
+############################## run =  271  ######################################
+############################## run =  272  ######################################
+############################## run =  273  ######################################
+############################## run =  274  ######################################
+############################## run =  275  ######################################
+############################## run =  276  ######################################
+############################## run =  277  ######################################
+############################## run =  278  ######################################
+############################## run =  279  ######################################
+############################## run =  280  ######################################
+############################## run =  281  ######################################
+############################## run =  282  ######################################
+############################## run =  283  ######################################
+############################## run =  284  ######################################
+############################## run =  285  ######################################
+############################## run =  286  ######################################
+############################## run =  287  ######################################
+############################## run =  288  ######################################
+############################## run =  289  ######################################
+############################## run =  290  ######################################
+############################## run =  291  ######################################
+############################## run =  292  ######################################
+############################## run =  293  ######################################
+############################## run =  294  ######################################
+############################## run =  295  ######################################
+############################## run =  296  ######################################
+############################## run =  297  ######################################
+############################## run =  298  ######################################
+############################## run =  299  ######################################
+############################## run =  300  ######################################
+############################## run =  301  ######################################
+############################## run =  302  ######################################
+############################## run =  303  ######################################
+############################## run =  304  ######################################
+############################## run =  305  ######################################
+############################## run =  306  ######################################
+############################## run =  307  ######################################
+############################## run =  308  ######################################
+############################## run =  309  ######################################
+############################## run =  310  ######################################
+############################## run =  311  ######################################
+############################## run =  312  ######################################
+############################## run =  313  ######################################
+############################## run =  314  ######################################
+############################## run =  315  ######################################
+############################## run =  316  ######################################
+############################## run =  317  ######################################
+############################## run =  318  ######################################
+############################## run =  319  ######################################
+############################## run =  320  ######################################
+############################## run =  321  ######################################
+############################## run =  322  ######################################
+############################## run =  323  ######################################
+############################## run =  324  ######################################
+############################## run =  325  ######################################
+############################## run =  326  ######################################
+############################## run =  327  ######################################
+############################## run =  328  ######################################
+############################## run =  329  ######################################
+############################## run =  330  ######################################
+############################## run =  331  ######################################
+############################## run =  332  ######################################
+############################## run =  333  ######################################
+############################## run =  334  ######################################
+############################## run =  335  ######################################
+############################## run =  336  ######################################
+############################## run =  337  ######################################
+############################## run =  338  ######################################
+############################## run =  339  ######################################
+############################## run =  340  ######################################
+############################## run =  341  ######################################
+############################## run =  342  ######################################
+############################## run =  343  ######################################
+############################## run =  344  ######################################
+############################## run =  345  ######################################
+############################## run =  346  ######################################
+############################## run =  347  ######################################
+############################## run =  348  ######################################
+############################## run =  349  ######################################
+############################## run =  350  ######################################
+############################## run =  351  ######################################
+############################## run =  352  ######################################
+############################## run =  353  ######################################
+############################## run =  354  ######################################
+############################## run =  355  ######################################
+############################## run =  356  ######################################
+############################## run =  357  ######################################
+############################## run =  358  ######################################
+############################## run =  359  ######################################
+############################## run =  360  ######################################
+############################## run =  361  ######################################
+############################## run =  362  ######################################
+############################## run =  363  ######################################
+############################## run =  364  ######################################
+############################## run =  365  ######################################
+############################## run =  366  ######################################
+############################## run =  367  ######################################
+############################## run =  368  ######################################
+############################## run =  369  ######################################
+############################## run =  370  ######################################
+############################## run =  371  ######################################
+############################## run =  372  ######################################
+############################## run =  373  ######################################
+############################## run =  374  ######################################
+############################## run =  375  ######################################
+############################## run =  376  ######################################
+############################## run =  377  ######################################
+############################## run =  378  ######################################
+############################## run =  379  ######################################
+############################## run =  380  ######################################
+############################## run =  381  ######################################
+############################## run =  382  ######################################
+############################## run =  383  ######################################
+############################## run =  384  ######################################
+############################## run =  385  ######################################
+############################## run =  386  ######################################
+############################## run =  387  ######################################
+############################## run =  388  ######################################
+############################## run =  389  ######################################
+############################## run =  390  ######################################
+############################## run =  391  ######################################
+############################## run =  392  ######################################
+############################## run =  393  ######################################
+############################## run =  394  ######################################
+############################## run =  395  ######################################
+############################## run =  396  ######################################
+############################## run =  397  ######################################
+############################## run =  398  ######################################
+############################## run =  399  ######################################
+############################## run =  400  ######################################
+############################## run =  401  ######################################
+############################## run =  402  ######################################
+############################## run =  403  ######################################
+############################## run =  404  ######################################
+############################## run =  405  ######################################
+############################## run =  406  ######################################
+############################## run =  407  ######################################
+############################## run =  408  ######################################
+############################## run =  409  ######################################
+############################## run =  410  ######################################
+############################## run =  411  ######################################
+############################## run =  412  ######################################
+############################## run =  413  ######################################
+############################## run =  414  ######################################
+############################## run =  415  ######################################
+############################## run =  416  ######################################
+############################## run =  417  ######################################
+############################## run =  418  ######################################
+############################## run =  419  ######################################
+############################## run =  420  ######################################
+############################## run =  421  ######################################
+############################## run =  422  ######################################
+############################## run =  423  ######################################
+############################## run =  424  ######################################
+############################## run =  425  ######################################
+############################## run =  426  ######################################
+############################## run =  427  ######################################
+############################## run =  428  ######################################
+############################## run =  429  ######################################
+############################## run =  430  ######################################
+############################## run =  431  ######################################
+############################## run =  432  ######################################
+############################## run =  433  ######################################
+############################## run =  434  ######################################
+############################## run =  435  ######################################
+############################## run =  436  ######################################
+############################## run =  437  ######################################
+############################## run =  438  ######################################
+############################## run =  439  ######################################
+############################## run =  440  ######################################
+############################## run =  441  ######################################
+############################## run =  442  ######################################
+############################## run =  443  ######################################
+############################## run =  444  ######################################
+############################## run =  445  ######################################
+############################## run =  446  ######################################
+############################## run =  447  ######################################
+############################## run =  448  ######################################
+############################## run =  449  ######################################
+############################## run =  450  ######################################
+############################## run =  451  ######################################
+############################## run =  452  ######################################
+############################## run =  453  ######################################
+############################## run =  454  ######################################
+############################## run =  455  ######################################
+############################## run =  456  ######################################
+############################## run =  457  ######################################
+############################## run =  458  ######################################
+############################## run =  459  ######################################
+############################## run =  460  ######################################
+############################## run =  461  ######################################
+############################## run =  462  ######################################
+############################## run =  463  ######################################
+############################## run =  464  ######################################
+############################## run =  465  ######################################
+############################## run =  466  ######################################
+############################## run =  467  ######################################
+############################## run =  468  ######################################
+############################## run =  469  ######################################
+############################## run =  470  ######################################
+############################## run =  471  ######################################
+############################## run =  472  ######################################
+############################## run =  473  ######################################
+############################## run =  474  ######################################
+############################## run =  475  ######################################
+############################## run =  476  ######################################
+############################## run =  477  ######################################
+############################## run =  478  ######################################
+############################## run =  479  ######################################
+############################## run =  480  ######################################
+############################## run =  481  ######################################
+############################## run =  482  ######################################
+############################## run =  483  ######################################
+############################## run =  484  ######################################
+############################## run =  485  ######################################
+############################## run =  486  ######################################
+############################## run =  487  ######################################
+############################## run =  488  ######################################
+############################## run =  489  ######################################
+############################## run =  490  ######################################
+############################## run =  491  ######################################
+############################## run =  492  ######################################
+############################## run =  493  ######################################
+############################## run =  494  ######################################
+############################## run =  495  ######################################
+############################## run =  496  ######################################
+############################## run =  497  ######################################
+############################## run =  498  ######################################
+############################## run =  499  ######################################
+
+N 	 gmean(err)
+1 	 1.706222585
+2 	 0.388764166579
+3 	 0.179688104666
+4 	 0.0846452284273
+5 	 0.0490665382565
+6 	 0.032762456026
+7 	 0.0197884108194
+8 	 0.0148073499759
+9 	 0.00916277585165
+10 	 0.00649565025361
+11 	 0.00391493050094
+12 	 0.00298355218239
+13 	 0.00241263098475
+14 	 0.00194262664117
+15 	 0.00154750762085
+16 	 0.00118344344295
+17 	 0.000954440591437
+18 	 0.00074222879688
+19 	 0.000556587297591
+20 	 0.000488366572979
+
+==============================================================
+=             Error analysis ends                            =
+==============================================================
+

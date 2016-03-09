@@ -302,7 +302,7 @@ graetz.setNmax(10)
 # 6. Perform the offline phase
 first_mu = (1.0, 1.0)
 graetz.setmu(first_mu)
-graetz.offline()
+#graetz.offline()
 
 # 7. Perform an online solve
 online_mu = (10.0, 0.01)

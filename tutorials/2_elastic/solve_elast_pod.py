@@ -179,7 +179,7 @@ eb.setNmax(20)
 # 6. Perform the offline phase
 first_mu = (1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0)
 eb.setmu(first_mu)
-eb.offline()
+#eb.offline()
 
 # 7. Perform an online solve
 online_mu = (1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, -1.0, -1.0, -1.0)

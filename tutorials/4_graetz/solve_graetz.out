@@ -1,0 +1,334 @@
+==============================================================
+=             SCM offline phase begins                       =
+==============================================================
+
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+B_min[0] = -1.32137139772e-19
+B_max[0] = 0.999985386368
+B_min[1] = -7.62329652529e-20
+B_max[1] = 0.991462518902
+B_min[2] = -7.96210970419e-20
+B_max[2] = 0.991565356637
+B_min[3] = -0.000245996144869
+B_max[3] = 0.0343143364674
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  0  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (6.3417252074086825, 0.20745922210149845)
+find next mu
+absolute SCM delta max =  0.999516432233
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  1  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (0.11766719144572532, 7.275177603035374)
+find next mu
+absolute SCM delta max =  0.968074562244
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  2  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (1.07824574990632, 8.754344959241184)
+find next mu
+absolute SCM delta max =  0.416090631756
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  3  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (9.952249230960254, 8.062979515164086)
+find next mu
+absolute SCM delta max =  0.138204438247
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  4  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (0.7880773883987366, 1.9330778807988194)
+find next mu
+absolute SCM delta max =  0.0760426837852
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  5  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (1.7628205518342275, 0.048123003330573504)
+find next mu
+absolute SCM delta max =  0.0571848327114
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  6  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (0.35580700634338597, 9.213812313557424)
+find next mu
+absolute SCM delta max =  0.0388907055418
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  7  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (1.047141536884808, 0.7089606188963924)
+find next mu
+absolute SCM delta max =  0.0326141337036
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  8  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (0.5359988246592423, 5.693789354889478)
+find next mu
+absolute SCM delta max =  0.0201637459394
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  9  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (0.8263095463562976, 8.430929757928677)
+find next mu
+absolute SCM delta max =  0.00566089201767
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  10  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (1.6199298792893764, 0.43210927214422695)
+find next mu
+absolute SCM delta max =  0.00443049391749
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  11  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (6.635577465096313, 0.47576497263622397)
+find next mu
+absolute SCM delta max =  0.00213903436383
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  12  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (9.807467276073274, 2.4415209467022345)
+find next mu
+absolute SCM delta max =  0.00158161092606
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  13  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (8.57262589286459, 9.795333331957343)
+find next mu
+absolute SCM delta max =  0.00134049604093
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  14  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (1.336130500746868, 8.964931451463368)
+find next mu
+absolute SCM delta max =  0.00118622096547
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  15  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (0.4134445111790536, 1.1517998664524627)
+find next mu
+absolute SCM delta max =  0.000935200857618
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  16  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (0.38473555945419136, 9.046006520896038)
+find next mu
+absolute SCM delta max =  0.000502012784455
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  17  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (1.8511418851798032, 0.8382661234068619)
+find next mu
+absolute SCM delta max =  0.000314579360849
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  18  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (1.457026156906825, 1.6352100760021266)
+find next mu
+absolute SCM delta max =  0.000243572521706
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SCM run =  19  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+evaluate the coercivity constant for mu =  (5.234348314792487, 0.5332658605125521)
+absolute SCM delta max =  0.000189069822134
+==============================================================
+=             SCM offline phase ends                         =
+==============================================================
+
+==============================================================
+=             Offline phase begins                           =
+==============================================================
+
+############################## run =  0  ######################################
+truth solve for mu =  (1.0, 1.0)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [[ 3.67017961]]
+
+############################## run =  1  ######################################
+truth solve for mu =  (0.01122095908073525, 4.2958830606791665)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.51654316]
+
+############################## run =  2  ######################################
+truth solve for mu =  (6.57228543301732, 0.17479731574988575)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.17768548]
+
+############################## run =  3  ######################################
+truth solve for mu =  (0.14506847551499047, 2.210306460494913)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.11623226]
+
+############################## run =  4  ######################################
+truth solve for mu =  (1.48630109439264, 0.21806076507148703)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.03881391]
+
+############################## run =  5  ######################################
+truth solve for mu =  (0.30043556765073953, 1.1063006275711718)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.03559371]
+
+############################## run =  6  ######################################
+truth solve for mu =  (9.262594667261725, 0.4708121760973083)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.01889457]
+
+############################## run =  7  ######################################
+truth solve for mu =  (2.885887156300738, 0.20523056174085388)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.00605261]
+
+############################## run =  8  ######################################
+truth solve for mu =  (4.097848296337065, 0.3511922002695904)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.00209366]
+
+############################## run =  9  ######################################
+truth solve for mu =  (2.0206995613078367, 0.5278072720935669)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+absolute delta max =  [ 0.00214061]
+
+==============================================================
+=             Offline phase ends                             =
+==============================================================
+
+==============================================================
+=             Offline phase begins                           =
+==============================================================
+
+Calling FFC just-in-time (JIT) compiler, this may take some time.
+############################## run =  0  ######################################
+truth solve for mu =  (1.0, 1.0)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [[ 56.1343464]]
+
+############################## run =  1  ######################################
+truth solve for mu =  (0.06796290505965448, 9.749550531020283)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 14.91337763]
+
+############################## run =  2  ######################################
+truth solve for mu =  (9.961362120347946, 0.5487408678984161)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 1.14664049]
+
+############################## run =  3  ######################################
+truth solve for mu =  (0.3064373816851176, 0.33223224430142345)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.80777759]
+
+############################## run =  4  ######################################
+truth solve for mu =  (4.802116199313631, 0.7088618752693848)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.42555947]
+
+############################## run =  5  ######################################
+truth solve for mu =  (9.93571632673909, 7.7942107365165585)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.14013054]
+
+############################## run =  6  ######################################
+truth solve for mu =  (7.124031904271476, 9.487710164571855)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.0933729]
+
+############################## run =  7  ######################################
+truth solve for mu =  (0.40546656831634664, 8.266499576446453)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.05470862]
+
+############################## run =  8  ######################################
+truth solve for mu =  (2.33793112807858, 0.7811950634118177)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+find next mu
+absolute delta max =  [ 0.04709014]
+
+############################## run =  9  ######################################
+truth solve for mu =  (8.27761225481187, 0.31916358261666894)
+moving mesh
+back to the reference mesh
+update basis matrix
+build reduced matrices
+reduced order solve
+build matrices for error estimation (it may take a while)
+absolute delta max =  [ 0.03389191]
+
+==============================================================
+=             Offline phase ends                             =
+==============================================================
+
+moving mesh
+*** Warning: Environment variable DOLFIN_NOPLOT set: Plotting disabled.
+back to the reference mesh
