@@ -169,9 +169,10 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
 
         #for run in range(self.Nmax):
         err_max = 1.0
+        run = 1
         while self.N < self.Nmax and err_max > 1e-6:
             print "############################## run = ", run, " ######################################"
-
+            run += 1
             print "truth solve for mu = ", self.mu
             self.truth_solve()
             self.export_solution(self.snapshot, self.snapshots_folder + "truth_" + str(run))
