@@ -29,22 +29,22 @@ import random # to randomize selection in case of equal error bound
 from gram_schmidt import *
 from elliptic_coercive_base import *
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~     ELLIPTIC COERCIVE RB BASE CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+#~~~~~~~~~~~~~~~~~~~~~~~~~     ELLIPTIC COERCIVE RB BASE CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 ## @class EllipticCoerciveRBBase
 #
 # Base class containing the interface of the RB method
 # for (compliant) elliptic coercive problems
 class EllipticCoerciveRBBase(EllipticCoerciveBase):
 
-    ###########################     CONSTRUCTORS     ########################### 
+    ###########################     CONSTRUCTORS     ###########################
     ## @defgroup Constructors Methods related to the construction of the reduced basis object
     #  @{
-    
+
     ## Default initialization of members
     def __init__(self, V, bc_list):
         # Call the parent initialization
         EllipticCoerciveBase.__init__(self, V, bc_list)
-        
+
         # $$ ONLINE DATA STRUCTURES $$ #
         # 4. Online output
         self.sN = 0
@@ -54,7 +54,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         self.CC = np.array([])
         self.CL = np.array([])
         self.LL = np.array([])
-        
+
         # $$ OFFLINE DATA STRUCTURES $$ #
         # 4. Offline output
         self.s = 0
@@ -66,33 +66,33 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         self.dual_folder = "dual/"
         self.reduced_matrices_folder = "reduced_matrices/"
         self.post_processing_folder = "post_processing/"
-        
+
     #  @}
     ########################### end - CONSTRUCTORS - end ###########################
-    
-    ###########################     ONLINE STAGE     ########################### 
+
+    ###########################     ONLINE STAGE     ###########################
     ## @defgroup OnlineStage Methods related to the online stage
     #  @{
-    
+
     # Perform an online evaluation of the (compliant) output
     def online_output(self):
         N = self.uN.size
         self.theta_f = self.compute_theta_f()
         assembled_reduced_F = self.affine_assemble_reduced_vector(self.reduced_F, self.theta_f, N)
         self.sN = float(np.dot(assembled_reduced_F, self.uN))
-        
+
     ## Return an error bound for the current solution
     def get_delta(self):
         eps2 = self.get_eps2()
         alpha = self.get_alpha_lb()
         return np.sqrt(np.abs(eps2)/alpha)
-    
+
     ## Return an error bound for the current output
     def get_delta_output(self):
         eps2 = self.get_eps2()
         alpha = self.get_alpha_lb()
         return np.abs(eps2)/alpha
-        
+
     ## Return the numerator of the error bound for the current solution
     def get_eps2 (self):
         theta_a = self.theta_a
@@ -100,26 +100,26 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         Qf = self.Qf
         Qa = self.Qa
         uN = self.uN
-        
+
         eps2 = 0.0
-        
+
         CC = self.CC
         for qf in range(Qf):
             for qfp in range(Qf):
                 eps2 += theta_f[qf]*theta_f[qfp]*CC[qf,qfp]
-        
+
         CL = self.CL
         LL = self.LL
         if self.N == 1:
             for qf in range(Qf):
                 for qa in range(Qa):
                     eps2 += 2.0*theta_f[qf]*uN*theta_a[qa]*CL[0,qf,qa]
-    
-    
+
+
             for qa in range(Qa):
                 for qap in range(Qa):
                     eps2 += theta_a[qa]*uN*uN*theta_a[qap]*LL[0,0,qa,qap]
-            
+
         else:
             n = 0
             for un in uN:
@@ -137,16 +137,16 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
                             eps2 += theta_a[qa]*un*theta_a[qap]*unp*LL[n,np,qa,qap]
                         np += 1
                 n += 1
-        
+
         return eps2
-        
+
     #  @}
-    ########################### end - ONLINE STAGE - end ########################### 
-    
-    ###########################     OFFLINE STAGE     ########################### 
+    ########################### end - ONLINE STAGE - end ###########################
+
+    ###########################     OFFLINE STAGE     ###########################
     ## @defgroup OfflineStage Methods related to the offline stage
     #  @{
-    
+
     ## Perform the offline phase of the reduced order model
     def offline(self):
         print "=============================================================="
@@ -159,34 +159,36 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         for f in folders:
             if not os.path.exists(f):
                 os.makedirs(f)
-        
+
         self.truth_A = self.assemble_truth_a()
         self.apply_bc_to_matrix_expansion(self.truth_A)
         self.truth_F = self.assemble_truth_f()
         self.apply_bc_to_vector_expansion(self.truth_F)
         self.Qa = len(self.truth_A)
         self.Qf = len(self.truth_F)
-        
-        for run in range(self.Nmax):
+
+        #for run in range(self.Nmax):
+        err_max = -1.0
+        while self.N < self.Nmax and err_max > 1e-6:
             print "############################## run = ", run, " ######################################"
-            
+
             print "truth solve for mu = ", self.mu
             self.truth_solve()
             self.export_solution(self.snapshot, self.snapshots_folder + "truth_" + str(run))
-            
+
             print "update basis matrix"
             self.update_basis_matrix()
-            
+
             print "build reduced matrices"
             self.build_reduced_matrices()
             self.build_reduced_vectors()
-            
+
             print "reduced order solve"
             self._online_solve(self.N)
-            
+
             print "build matrices for error estimation (it may take a while)"
             self.compute_dual_terms()
-            
+
             if self.N < self.Nmax:
                 print "find next mu"
                 self.greedy()
@@ -194,12 +196,12 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
                 self.greedy()
 
             print ""
-            
+
         print "=============================================================="
         print "=             Offline phase ends                             ="
         print "=============================================================="
         print ""
-        
+
     ## Update basis matrix
     def update_basis_matrix(self):
         if self.N == 0:
@@ -213,7 +215,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         current_basis.vector()[:] = np.array(self.Z[:, self.N], dtype=np.float_)
         self.export_basis(current_basis, self.basis_folder + "basis_" + str(self.N))
         self.N += 1
-        
+
     ## Choose the next parameter in the offline stage in a greedy fashion
     def greedy(self):
         delta_max = -1.0
@@ -228,9 +230,9 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         print "absolute delta max = ", delta_max
         if os.path.isfile(self.post_processing_folder + "delta_max.npy") == True:
             d = np.load(self.post_processing_folder + "delta_max.npy")
-            
+
             np.save(self.post_processing_folder + "delta_max", np.append(d, delta_max))
-    
+
             m = np.load(self.post_processing_folder + "mu_greedy.npy")
             np.save(self.post_processing_folder + "mu_greedy", np.append(m, munew))
         else:
@@ -238,16 +240,17 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
             np.save(self.post_processing_folder + "mu_greedy", np.array(munew))
 
         self.setmu(munew)
-        
+        return err_max
+
     ## Compute dual terms
     def compute_dual_terms(self):
         N = self.N
         RBu = Function(self.V)
-        
+
         Qf = self.Qf
         Qa = self.Qa
         if N == 1 :
-            
+
             # CC (does not depend on N, so we compute it only once)
             self.Cf = self.compute_f_dual()
             self.CC = np.zeros((Qf,Qf))
@@ -257,11 +260,11 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
                     if qf != qfp:
                         self.CC[qfp,qf] = self.CC[qf,qfp]
             np.save(self.dual_folder + "CC", self.CC)
-    
+
             RBu.vector()[:] = self.Z[:, 0]
-            
+
             self.lnq = (self.compute_a_dual(RBu),)
-    
+
             la = Function(self.V)
             lap = Function(self.V)
 
@@ -272,7 +275,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
                     la.vector()[:] = np.array(self.lnq[0][:,qa], dtype=np.float_)
                     self.CL[0,qf,qa] = self.compute_scalar(la,self.Cf[qf],self.S)
             np.save(self.dual_folder + "CL", self.CL)
-            
+
             # LL
             self.LL = np.zeros((self.Nmax,self.Nmax,Qa,Qa))
             for qa in range(0,Qa):
@@ -297,7 +300,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
                     la.vector()[:] = np.array(self.lnq[n][:, qa], dtype=np.float_)
                     self.CL[n,qf,qa] = self.compute_scalar(self.Cf[qf],la,self.S)
             np.save(self.dual_folder + "CL", self.CL)
-    
+
             # LL
             for qa in range(0,Qa):
                 la.vector()[:] = np.array(self.lnq[n][:, qa], dtype=np.float_)
@@ -308,7 +311,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
                         if n != nn:
                             self.LL[nn,n,qa,qap] = self.LL[n,nn,qa,qap]
             np.save(self.dual_folder + "LL", self.LL)
-    
+
     ## Compute the dual of a
     def compute_a_dual(self, RBu):
         riesz = Function(self.V)
@@ -321,7 +324,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
                 l = np.array(riesz.vector()).reshape(-1, 1) # as column vector
                 i = 1
         return l
-    
+
     ## Compute the dual of f
     def compute_f_dual(self):
         riesz = Function(self.V)
@@ -330,20 +333,20 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
             solve (self.S, riesz.vector(), F)
             c += (riesz.copy(True),)
         return c
-        
+
     ## Perform a truth evaluation of the output
     def truth_output(self):
         self.theta_f = self.compute_theta_f()
         assembled_truth_F = self.affine_assemble_truth_vector(self.truth_F, self.theta_f)
         self.s = assembled_truth_F.inner(self.snapshot.vector())
-        
+
     #  @}
-    ########################### end - OFFLINE STAGE - end ########################### 
-    
-    ###########################     ERROR ANALYSIS     ########################### 
+    ########################### end - OFFLINE STAGE - end ###########################
+
+    ###########################     ERROR ANALYSIS     ###########################
     ## @defgroup ErrorAnalysis Error analysis
     #  @{
-    
+
     # Compute the error of the reduced order approximation with respect to the full order one
     # for the current value of mu. Overridden to compute also error on the output
     def compute_error(self, N=None, skip_truth_solve=False):
@@ -353,54 +356,54 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         self.online_output()
         error_s = abs(self.s - self.sN)
         return (error_u, error_s)
-        
-        
+
+
     # Compute the error of the reduced order approximation with respect to the full order one
     # over the test set
     def error_analysis(self, N=None):
         self.load_reduced_matrices()
         if N is None:
             N = self.N
-            
+
         self.truth_A = self.assemble_truth_a()
         self.apply_bc_to_matrix_expansion(self.truth_A)
         self.truth_F = self.assemble_truth_f()
         self.apply_bc_to_vector_expansion(self.truth_F)
         self.Qa = len(self.truth_A)
         self.Qf = len(self.truth_F)
-        
+
         print "=============================================================="
         print "=             Error analysis begins                          ="
         print "=============================================================="
         print ""
-        
+
         error_u = np.zeros((N, len(self.xi_test)))
         delta_u = np.zeros((N, len(self.xi_test)))
         effectivity_u = np.zeros((N, len(self.xi_test)))
         error_s = np.zeros((N, len(self.xi_test)))
         delta_s = np.zeros((N, len(self.xi_test)))
         effectivity_s = np.zeros((N, len(self.xi_test)))
-        
+
         for run in range(len(self.xi_test)):
             print "############################## run = ", run, " ######################################"
-            
+
             self.setmu(self.xi_test[run])
-            
+
             # Perform the truth solve only once
             self.truth_solve()
             self.truth_output()
-            
+
             for n in range(N): # n = 0, 1, ... N - 1
                 (current_error_u, current_error_s) = self.compute_error(n + 1, True)
-                
+
                 error_u[n, run] = current_error_u
                 delta_u[n, run] = self.get_delta()
                 effectivity_u[n, run] = delta_u[n, run]/error_u[n, run]
-                
+
                 error_s[n, run] = current_error_s
                 delta_s[n, run] = self.get_delta_output()
                 effectivity_s[n, run] = delta_s[n, run]/error_s[n, run]
-        
+
         # Print some statistics
         print ""
         print "N \t gmean(err_u) \t\t gmean(delta_u) \t min(eff_u) \t gmean(eff_u) \t max(eff_u)"
@@ -413,7 +416,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
             print str(n+1) + " \t " + str(mean_error_u) + " \t " + str(mean_delta_u) \
                   + " \t " + str(min_effectivity_u) + " \t " + str(mean_effectivity_u) \
                   + " \t " + str(max_effectivity_u)
-                  
+
         print ""
         print "N \t gmean(err_s) \t\t gmean(delta_s) \t min(eff_s) \t gmean(eff_s) \t max(eff_s)"
         for n in range(N): # n = 0, 1, ... N - 1
@@ -425,20 +428,20 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
             print str(n+1) + " \t " + str(mean_error_s) + " \t " + str(mean_delta_s) \
                   + " \t " + str(min_effectivity_s) + " \t " + str(mean_effectivity_s) \
                   + " \t " + str(max_effectivity_s)
-        
+
         print ""
         print "=============================================================="
         print "=             Error analysis ends                            ="
         print "=============================================================="
         print ""
-        
+
     #  @}
-    ########################### end - ERROR ANALYSIS - end ########################### 
-    
-    ###########################     I/O     ########################### 
+    ########################### end - ERROR ANALYSIS - end ###########################
+
+    ###########################     I/O     ###########################
     ## @defgroup IO Input/output methods
     #  @{
-    
+
     def load_reduced_matrices(self):
         # Read in data structures as in parent
         EllipticCoerciveBase.load_reduced_matrices(self)
@@ -449,14 +452,14 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
             self.CL = np.load(self.dual_folder + "CL.npy")
         if len(np.asarray(self.LL)) == 0: # avoid loading multiple times
             self.LL = np.load(self.dual_folder + "LL.npy")
-    
+
     #  @}
-    ########################### end - I/O - end ########################### 
-    
-    ###########################     PROBLEM SPECIFIC     ########################### 
+    ########################### end - I/O - end ###########################
+
+    ###########################     PROBLEM SPECIFIC     ###########################
     ## @defgroup ProblemSpecific Problem specific methods
     #  @{
-    
+
     ## Return a lower bound for the coercivity constant
     # example of implementation:
     #    return 1.0
@@ -464,6 +467,6 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         print "The function get_alpha_lb(self) is problem-specific and needs to be overwritten."
         print "Abort program."
         sys.exit("Plase define function get_alpha_lb(self)!")
-        
+
     #  @}
-    ########################### end - PROBLEM SPECIFIC - end ########################### 
+    ########################### end - PROBLEM SPECIFIC - end ###########################
