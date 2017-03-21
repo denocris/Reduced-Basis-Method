@@ -25,13 +25,13 @@
 from dolfin import *
 from RBniCS import *
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 1: THERMAL BLOCK CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 1: THERMAL BLOCK CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 class Tblock(EllipticCoerciveRBBase):
-    
-    ###########################     CONSTRUCTORS     ########################### 
+
+    ###########################     CONSTRUCTORS     ###########################
     ## @defgroup Constructors Methods related to the construction of the reduced order model object
     #  @{
-    
+
     ## Default initialization of members
     def __init__(self, V, subd, bound):
         bc = DirichletBC(V, 0.0, bound, 3)
@@ -47,18 +47,18 @@ class Tblock(EllipticCoerciveRBBase):
         scalar = inner(grad(u),grad(v))*dx
         self.S = assemble(scalar)
         [bc.apply(self.S) for bc in self.bc_list] # make sure to apply BCs to the inner product matrix
-    
+
     #  @}
-    ########################### end - CONSTRUCTORS - end ########################### 
-    
-    ###########################     PROBLEM SPECIFIC     ########################### 
+    ########################### end - CONSTRUCTORS - end ###########################
+
+    ###########################     PROBLEM SPECIFIC     ###########################
     ## @defgroup ProblemSpecific Problem specific methods
     #  @{
-    
+
     ## Return the alpha_lower bound.
     def get_alpha_lb(self):
         return min(self.compute_theta_a())
-    
+
     ## Set theta multiplicative terms of the affine expansion of a.
     def compute_theta_a(self):
         mu1 = self.mu[0]
@@ -66,11 +66,11 @@ class Tblock(EllipticCoerciveRBBase):
         theta_a0 = mu1
         theta_a1 = 1.
         return (theta_a0, theta_a1)
-    
+
     ## Set theta multiplicative terms of the affine expansion of f.
     def compute_theta_f(self):
         return (self.mu[1],)
-    
+
     ## Set matrices resulting from the truth discretization of a.
     def assemble_truth_a(self):
         u = self.u
@@ -84,7 +84,7 @@ class Tblock(EllipticCoerciveRBBase):
         A1 = assemble(a1)
         # Return
         return (A0, A1)
-    
+
     ## Set vectors resulting from the truth discretization of f.
     def assemble_truth_f(self):
         v = self.v
@@ -95,11 +95,11 @@ class Tblock(EllipticCoerciveRBBase):
         F0 = assemble(f0)
         # Return
         return (F0,)
-        
-    #  @}
-    ########################### end - PROBLEM SPECIFIC - end ########################### 
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 1: MAIN PROGRAM     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+    #  @}
+    ########################### end - PROBLEM SPECIFIC - end ###########################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 1: MAIN PROGRAM     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 # 1. Read the mesh for this problem
 mesh = Mesh("data/tblock.xml")
@@ -127,7 +127,7 @@ tb.setmu(first_mu)
 #tb.offline()
 
 # 7. Perform an online solve
-online_mu = (8.,-1.0)
+online_mu = (0.1,10.0)
 tb.setmu(online_mu)
 tb.online_solve()
 
