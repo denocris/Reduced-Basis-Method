@@ -63,8 +63,9 @@ class Tblock(EllipticCoerciveRBBase):
     def compute_theta_a(self):
         mu1 = self.mu[0]
         mu2 = self.mu[1]
+        mu3 = self.mu[2]
         theta_a0 = mu1
-        theta_a1 = 1.
+        theta_a1 = mu2
         return (theta_a0, theta_a1)
 
     ## Set theta multiplicative terms of the affine expansion of f.
@@ -116,13 +117,13 @@ tb = Tblock(V, subd, bound)
 parameters.linear_algebra_backend = 'PETSc'
 
 # 5. Set mu range, xi_train and Nmax
-mu_range = [(0.1, 10.0), (-1.0, 1.0)]
+mu_range = [(0.1, 10.0), (-1.0, 1.0), (0.1, 10.0)]
 tb.setmu_range(mu_range)
 tb.setxi_train(100)
 tb.setNmax(4)
 
 # 6. Perform the offline phase
-first_mu = (0.5,1.0)
+first_mu = (0.5,1.0,0.5)
 tb.setmu(first_mu)
 #tb.offline()
 
