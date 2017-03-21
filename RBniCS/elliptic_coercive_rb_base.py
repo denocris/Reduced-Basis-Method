@@ -168,7 +168,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
         self.Qf = len(self.truth_F)
 
         #for run in range(self.Nmax):
-        err_max = -1.0
+        err_max = 1.0
         while self.N < self.Nmax and err_max > 1e-6:
             print "############################## run = ", run, " ######################################"
 
@@ -240,7 +240,7 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
             np.save(self.post_processing_folder + "mu_greedy", np.array(munew))
 
         self.setmu(munew)
-        return err_max
+        return delta_max
 
     ## Compute dual terms
     def compute_dual_terms(self):
