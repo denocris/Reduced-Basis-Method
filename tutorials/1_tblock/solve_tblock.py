@@ -128,7 +128,7 @@ tb.setmu(first_mu)
 #tb.offline()
 
 # 7. Perform an online solve
-online_mu = (0.1,10.0)
+online_mu = (0.1, 10.0, 0.5)
 tb.setmu(online_mu)
 tb.online_solve()
 
