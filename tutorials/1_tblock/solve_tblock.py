@@ -120,7 +120,7 @@ parameters.linear_algebra_backend = 'PETSc'
 mu_range = [(0.1, 10.0), (-1.0, 1.0), (0.1, 10.0)]
 tb.setmu_range(mu_range)
 tb.setxi_train(100)
-tb.setNmax(4)
+tb.setNmax(10)
 
 # 6. Perform the offline phase
 first_mu = (0.5, 1.0, 0.5)
