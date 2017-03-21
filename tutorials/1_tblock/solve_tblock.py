@@ -65,7 +65,7 @@ class Tblock(EllipticCoerciveRBBase):
         mu2 = self.mu[1]
         mu3 = self.mu[2]
         theta_a0 = mu1
-        theta_a1 = mu2
+        theta_a1 = mu3
         return (theta_a0, theta_a1)
 
     ## Set theta multiplicative terms of the affine expansion of f.
@@ -123,7 +123,7 @@ tb.setxi_train(100)
 tb.setNmax(4)
 
 # 6. Perform the offline phase
-first_mu = (0.5,1.0,0.5)
+first_mu = (0.5, 1.0, 0.5)
 tb.setmu(first_mu)
 #tb.offline()
 
