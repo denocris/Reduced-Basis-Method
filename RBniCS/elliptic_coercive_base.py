@@ -28,22 +28,22 @@ import sys # for exit
 import itertools # for equispaced grid generation
 from parametrized_problem import *
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~     ELLIPTIC COERCIVE BASE CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+#~~~~~~~~~~~~~~~~~~~~~~~~~     ELLIPTIC COERCIVE BASE CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 ## @class EllipticCoerciveBase
 #
 # Base class containing the interface of a projection based ROM
 # for elliptic coercive problems
 class EllipticCoerciveBase(ParametrizedProblem):
-    
-    ###########################     CONSTRUCTORS     ########################### 
+
+    ###########################     CONSTRUCTORS     ###########################
     ## @defgroup Constructors Methods related to the construction of the reduced order model object
     #  @{
-    
+
     ## Default initialization of members
     def __init__(self, V, bc_list):
         # Call to parent
         ParametrizedProblem.__init__(self)
-        
+
         # $$ ONLINE DATA STRUCTURES $$ #
         # 3a. Number of terms in the affine expansion
         self.Qa = 0
@@ -56,7 +56,7 @@ class EllipticCoerciveBase(ParametrizedProblem):
         self.reduced_F = ()
         # 4. Online solution
         self.uN = 0 # vector of dimension N storing the reduced order solution
-        
+
         # $$ OFFLINE DATA STRUCTURES $$ #
         # 3c. Matrices/vectors resulting from the truth discretization
         self.truth_A = ()
@@ -78,14 +78,14 @@ class EllipticCoerciveBase(ParametrizedProblem):
         self.S = assemble(scalar) # H^1 inner product matrix
         if self.bc_list != None:
             [bc.apply(self.S) for bc in self.bc_list] # make sure to apply BCs to the inner product matrix
-    
+
     #  @}
-    ########################### end - CONSTRUCTORS - end ########################### 
-    
-    ###########################     ONLINE STAGE     ########################### 
+    ########################### end - CONSTRUCTORS - end ###########################
+
+    ###########################     ONLINE STAGE     ###########################
     ## @defgroup OnlineStage Methods related to the online stage
     #  @{
-    
+
     # Perform an online solve. self.N will be used as matrix dimension if the default value is provided for N.
     def online_solve(self, N=None, with_plot=True):
         self.load_reduced_matrices()
@@ -100,7 +100,8 @@ class EllipticCoerciveBase(ParametrizedProblem):
         self.reduced.vector()[:] = sol
         if with_plot == True:
             self._plot(self.reduced, title = "Reduced solution. mu = " + str(self.mu), interactive = True)
-    
+            File("soluzione.pvd") << self.reduced
+
     # Perform an online solve (internal)
     def _online_solve(self, N):
         self.theta_a = self.compute_theta_a()
@@ -113,7 +114,7 @@ class EllipticCoerciveBase(ParametrizedProblem):
             uN = np.linalg.solve(assembled_reduced_A, assembled_reduced_F)
             uN = uN.reshape(-1, 1) # as column vector
         self.uN = uN
-        
+
     ## Assemble the reduced affine expansion (matrix)
     def affine_assemble_reduced_matrix(self, vec, theta_v, m, n):
         A_ = vec[0][:m,:n]*theta_v[0]
@@ -121,7 +122,7 @@ class EllipticCoerciveBase(ParametrizedProblem):
         for i in range(1,len(vec)):
             A_ += vec[i][:m,:n]*theta_v[i]
         return A_
-        
+
     ## Assemble the reduced affine expansion (vector)
     def affine_assemble_reduced_vector(self, vec, theta_v, n):
         F_ = vec[0][:n]*theta_v[0]
@@ -129,14 +130,14 @@ class EllipticCoerciveBase(ParametrizedProblem):
         for i in range(1,len(vec)):
             F_ += vec[i][:n]*theta_v[i]
         return F_
-    
+
     #  @}
-    ########################### end - ONLINE STAGE - end ########################### 
-    
-    ###########################     OFFLINE STAGE     ########################### 
+    ########################### end - ONLINE STAGE - end ###########################
+
+    ###########################     OFFLINE STAGE     ###########################
     ## @defgroup OfflineStage Methods related to the offline stage
     #  @{
-    
+
     ## Perform the offline phase of the reduced order model
     def offline(self):
         sys.exit("Please implement the offline phase of the reduced order model.")
@@ -148,14 +149,14 @@ class EllipticCoerciveBase(ParametrizedProblem):
         assembled_truth_A = self.affine_assemble_truth_matrix(self.truth_A, self.theta_a)
         assembled_truth_F = self.affine_assemble_truth_vector(self.truth_F, self.theta_f)
         solve(assembled_truth_A, self.snapshot.vector(), assembled_truth_F)
-        
+
     ## Assemble the truth affine expansion (matrix)
     def affine_assemble_truth_matrix(self, vec, theta_v):
         A_ = vec[0]*theta_v[0]
         for i in range(1,len(vec)):
             A_ += vec[i]*theta_v[i]
         return A_
-        
+
     ## Assemble the symmetric part of the the truth affine expansion (matrix)
     def affine_assemble_truth_symmetric_part_matrix(self, vec, theta_v):
         A_ = self.affine_assemble_truth_matrix(vec, theta_v)
@@ -163,7 +164,7 @@ class EllipticCoerciveBase(ParametrizedProblem):
         A_ += AT_
         A_ /= 2.
         return A_
-        
+
     ## Assemble the truth affine expansion (vector)
     #  (the implementation is acutally the same of the matrix case, but this method is
     #   provided here for symmetry with the reduced case)
@@ -172,7 +173,7 @@ class EllipticCoerciveBase(ParametrizedProblem):
         for i in range(1,len(vec)):
             F_ += vec[i]*theta_v[i]
         return F_
-        
+
     ## Apply BCs to each element of the truth affine expansion (matrix)
     def apply_bc_to_matrix_expansion(self, vec):
         if self.bc_list != None:
@@ -180,13 +181,13 @@ class EllipticCoerciveBase(ParametrizedProblem):
                 [bc.apply(vec[i]) for bc in self.bc_list]
             for i in range(1,len(vec)):
                 [bc.zero(vec[i]) for bc in self.bc_list]
-            
+
     ## Apply BCs to each element of the truth affine expansion (vector)
     def apply_bc_to_vector_expansion(self, vec):
         if self.bc_list != None:
             for i in range(len(vec)):
                 [bc.apply(vec[i]) for bc in self.bc_list]
-        
+
     ## Assemble the reduced order affine expansion (matrix)
     def build_reduced_matrices(self):
         reduced_A = ()
@@ -199,7 +200,7 @@ class EllipticCoerciveBase(ParametrizedProblem):
                 reduced_A += (np.matrix(np.dot(self.Z.T,np.matrix(np.dot(A.mat().getValues(range(dim),range(dim)),self.Z)))),)
         self.reduced_A = reduced_A
         np.save(self.reduced_matrices_folder + "reduced_A", self.reduced_A)
-    
+
     ## Assemble the reduced order affine expansion (rhs)
     def build_reduced_vectors(self):
         reduced_F = ()
@@ -210,11 +211,11 @@ class EllipticCoerciveBase(ParametrizedProblem):
             reduced_F += (reduced_f,)
         self.reduced_F = reduced_F
         np.save(self.reduced_matrices_folder + "reduced_F", self.reduced_F)
-    
+
     ## Auxiliary internal method to compute the scalar product (v1, M*v2)
     def compute_scalar(self,v1,v2,M):
         return v1.vector().inner(M*v2.vector())
-        
+
     ## Auxiliary internal method to compute the transpose of a matrix
     def compute_transpose(self, A):
         AT = A.copy()
@@ -222,14 +223,14 @@ class EllipticCoerciveBase(ParametrizedProblem):
         AT = as_backend_type(AT)
         A.mat().transpose(AT.mat())
         return AT
-    
+
     #  @}
-    ########################### end - OFFLINE STAGE - end ########################### 
-    
-    ###########################     ERROR ANALYSIS     ########################### 
+    ########################### end - OFFLINE STAGE - end ###########################
+
+    ###########################     ERROR ANALYSIS     ###########################
     ## @defgroup ErrorAnalysis Error analysis
     #  @{
-    
+
     # Compute the error of the reduced order approximation with respect to the full order one
     # for the current value of mu
     def compute_error(self, N=None, skip_truth_solve=False):
@@ -241,19 +242,19 @@ class EllipticCoerciveBase(ParametrizedProblem):
         assembled_truth_A_sym = self.affine_assemble_truth_symmetric_part_matrix(self.truth_A, self.theta_a)
         error_norm_squared = self.compute_scalar(self.error, self.error, assembled_truth_A_sym) # norm of the error
         return np.sqrt(error_norm_squared)
-        
+
     # Compute the error of the reduced order approximation with respect to the full order one
     # over the test set
     def error_analysis(self, N=None):
         sys.exit("Please implement the error analysis of the reduced order model.")
-        
+
     #  @}
-    ########################### end - ERROR ANALYSIS - end ########################### 
-    
-    ###########################     I/O     ########################### 
+    ########################### end - ERROR ANALYSIS - end ###########################
+
+    ###########################     I/O     ###########################
     ## @defgroup IO Input/output methods
     #  @{
-    
+
     ## Load reduced order data structures
     def load_reduced_matrices(self):
         if len(np.asarray(self.reduced_A)) == 0: # avoid loading multiple times
@@ -267,15 +268,15 @@ class EllipticCoerciveBase(ParametrizedProblem):
     ## Export solution in VTK format
     def export_solution(self, solution, filename):
         self._export_vtk(solution, filename, {"With mesh motion": True, "With preprocessing": True})
-        
-    ## Export basis in VTK format. 
+
+    ## Export basis in VTK format.
     def export_basis(self, basis, filename):
         self._export_vtk(basis, filename, {"With mesh motion": False, "With preprocessing": False})
-        
-    #  @}
-    ########################### end - I/O - end ########################### 
 
-    ###########################     PROBLEM SPECIFIC     ########################### 
+    #  @}
+    ########################### end - I/O - end ###########################
+
+    ###########################     PROBLEM SPECIFIC     ###########################
     ## @defgroup ProblemSpecific Problem specific methods
     #  @{
 
@@ -292,7 +293,7 @@ class EllipticCoerciveBase(ParametrizedProblem):
         print "The function compute_theta_a() is problem-specific and needs to be overwritten."
         print "Abort program."
         sys.exit("Plase define function compute_theta_a(self)!")
-    
+
     ## Return theta multiplicative terms of the affine expansion of f.
     # example of implementation:
     #    m1 = self.mu[0]
@@ -306,7 +307,7 @@ class EllipticCoerciveBase(ParametrizedProblem):
         print "The function compute_theta_f() is problem-specific and needs to be overwritten."
         print "Abort program."
         sys.exit("Plase define function compute_theta_f(self)!")
-        
+
     ## Return matrices resulting from the truth discretization of a.
     # example of implementation:
     #    a0 = inner(grad(u),grad(v))*dx
@@ -325,7 +326,6 @@ class EllipticCoerciveBase(ParametrizedProblem):
         print "The function compute_truth_f() is problem-specific and needs to be overwritten."
         print "Abort program."
         sys.exit("Plase define function assemble_truth_f(self)!")
-    
-    #  @}
-    ########################### end - PROBLEM SPECIFIC - end ########################### 
 
+    #  @}
+    ########################### end - PROBLEM SPECIFIC - end ###########################
