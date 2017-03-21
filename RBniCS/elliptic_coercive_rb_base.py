@@ -192,9 +192,9 @@ class EllipticCoerciveRBBase(EllipticCoerciveBase):
 
             if self.N < self.Nmax:
                 print "find next mu"
-                self.greedy()
+                err_max = self.greedy()
             else:
-                self.greedy()
+                err_max = self.greedy()
 
             print ""
 
