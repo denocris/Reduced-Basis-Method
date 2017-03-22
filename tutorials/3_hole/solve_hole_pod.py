@@ -214,12 +214,12 @@ hole.setxi_train(500)
 hole.setNmax(20)
 
 # 6. Perform the offline phase
-first_mu = (0.5, 0.5, 0.01)
+first_mu = (0.5, 0.5, 0.01, 0.01)
 hole.setmu(first_mu)
 #hole.offline()
 
 # 7. Perform an online solve
-online_mu = (0.5,0.5,0.01)
+online_mu = (0.5,0.5,0.01,0.01)
 hole.setmu(online_mu)
 hole.online_solve()
 
