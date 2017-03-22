@@ -238,6 +238,9 @@ class EllipticCoerciveBase(ParametrizedProblem):
             self.truth_solve()
         self.online_solve(N, False)
         self.error.vector()[:] = self.snapshot.vector()[:] - self.reduced.vector()[:] # error as a function
+        self.export_solution(self.error, "error")
+        self.export_solution(self.snapshot, "truth")
+        self.export_solution(self.reduced, "reduced")
         self.theta_a = self.compute_theta_a() # not really necessary, for symmetry with the parabolic case
         assembled_truth_A_sym = self.affine_assemble_truth_symmetric_part_matrix(self.truth_A, self.theta_a)
         error_norm_squared = self.compute_scalar(self.error, self.error, assembled_truth_A_sym) # norm of the error
