@@ -25,13 +25,13 @@
 from dolfin import *
 from RBniCS import *
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 3: GEOMETRICAL PARAMETRIZATION CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 3: GEOMETRICAL PARAMETRIZATION CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 class Hole(ShapeParametrization(EllipticCoercivePODBase)):
-    
-    ###########################     CONSTRUCTORS     ########################### 
+
+    ###########################     CONSTRUCTORS     ###########################
     ## @defgroup Constructors Methods related to the construction of the reduced order model object
     #  @{
-    
+
     ## Default initialization of members
     def __init__(self, V, mesh, subd, bound):
         # Declare the shape parametrization map
@@ -46,23 +46,24 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
             ("2.0*mu[0] -2.0 + x[0] + (1.0-mu[0])*x[1]", "2.0*mu[1] -2.0 + (2.0 - mu[1])*x[1]"), # subdomain 8
         ]
         # Call the standard initialization
-        super(Hole, self).__init__(mesh, subd, V, None, shape_parametrization_expression)      
+        super(Hole, self).__init__(mesh, subd, V, None, shape_parametrization_expression)
         # ... and also store FEniCS data structures for assembly
         self.dx = Measure("dx")(subdomain_data=subd)
         self.ds = Measure("ds")(subdomain_data=bound)
-        
+
     #  @}
-    ########################### end - CONSTRUCTORS - end ########################### 
-    
-    ###########################     PROBLEM SPECIFIC     ########################### 
+    ########################### end - CONSTRUCTORS - end ###########################
+
+    ###########################     PROBLEM SPECIFIC     ###########################
     ## @defgroup ProblemSpecific Problem specific methods
     #  @{
-    
+
     ## Set theta multiplicative terms of the affine expansion of a.
     def compute_theta_a(self):
         m1 = self.mu[0]
         m2 = self.mu[1]
         m3 = self.mu[2]
+        m4 = self.mu[3]
         # subdomains 1 and 7
         theta_a0 = - (m2 - 2)/m1 - (2*(2*m1 - 2)*(m1 - 1))/(m1*(m2 - 2)) #K11
         theta_a1 = -m1/(m2 - 2) #K22
@@ -81,9 +82,9 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         theta_a11 = (m2 - 1)/(m1 - 2)
         # boundaries 5, 6, 7 and 8
         theta_a12 = m3
-        
+
         return (theta_a0, theta_a1, theta_a2, theta_a3, theta_a4, theta_a5, theta_a6, theta_a7, theta_a8, theta_a9, theta_a10, theta_a11, theta_a12)
-    
+
     ## Set theta multiplicative terms of the affine expansion of f.
     def compute_theta_f(self):
         m1 = self.mu[0]
@@ -92,9 +93,9 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         theta_f1 = - m2*(m1 - 2.0) # boundary 2
         theta_f2 = - m1*(m2 - 2.0) # boundary 3
         theta_f3 = - m2*(m1 - 2.0) # boundary 4
-        
+
         return (theta_f0, theta_f1, theta_f2, theta_f3)
-    
+
     ## Set matrices resulting from the truth discretization of a.
     def assemble_truth_a(self):
         u = self.u
@@ -119,7 +120,7 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         a11 = inner(u.dx(0), v.dx(1))*dx(4) +  inner(u.dx(1), v.dx(0))*dx(4) - (inner(u.dx(0), v.dx(1))*dx(6) +  inner(u.dx(1), v.dx(0))*dx(6))
         # boundaries 5, 6, 7 and 8
         a12 = inner(u,v)*ds(5) + inner(u,v)*ds(6) + inner(u,v)*ds(7) + inner(u,v)*ds(8)
-        
+
         # Assemble and return
         A0 = assemble(a0)
         A1 = assemble(a1)
@@ -135,7 +136,7 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         A11 = assemble(a11)
         A12 = assemble(a12)
         return (A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12)
-    
+
     ## Set vectors resulting from the truth discretization of f.
     def assemble_truth_f(self):
         v = self.v
@@ -145,18 +146,18 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         f1 = v*ds(2) # boundary 2
         f2 = v*ds(3) # boundary 3
         f3 = v*ds(4) # boundary 4
-        
+
         # Assemble and return
         F0 = assemble(f0)
         F1 = assemble(f1)
         F2 = assemble(f2)
         F3 = assemble(f3)
         return (F0, F1, F2, F3)
-        
+
     #  @}
-    ########################### end - PROBLEM SPECIFIC - end ########################### 
-    
-#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 3: MAIN PROGRAM     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+    ########################### end - PROBLEM SPECIFIC - end ###########################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 3: MAIN PROGRAM     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 # 1. Read the mesh for this problem
 mesh = Mesh("data/hole.xml")
@@ -173,7 +174,7 @@ hole = Hole(V, mesh, subd, bound)
 parameters.linear_algebra_backend = 'PETSc'
 
 # 5. Set mu range, xi_train and Nmax
-mu_range = [(1.0, 1.5), (1.0, 1.5), (0.01, 1.0)]
+mu_range = [(1.0, 1.5), (1.0, 1.5), (0.01, 1.0), (-0.1, 0.1)]
 hole.setmu_range(mu_range)
 hole.setxi_train(500)
 hole.setNmax(20)
