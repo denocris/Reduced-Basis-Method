@@ -161,9 +161,14 @@ g21 = A[4]
 g22 = A[5]
 
 
+
+
 G = Matrix([[g11, g12], [g21, g22]])
 J = G.det()
 
+print 'G =', G
+print 'C1 =', C1
+print 'C2 =', C2
 
 D = Inverse(G)
 

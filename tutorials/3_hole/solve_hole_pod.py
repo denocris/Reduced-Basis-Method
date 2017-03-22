@@ -64,15 +64,27 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         m2 = self.mu[1]
         m3 = self.mu[2]
         m4 = self.mu[3]
-        # subdomains 1 and 7
+        # subdomains 1
+        theta_a13 = (-8*m1**2 + 16*m1 - 2*m2**2 - 2*m2*m4 + 8*m2 - m4**2/2 + 4*m4 - 16)/(2*m1*m2 - m1*m4 - 4*m1 + 2*m4)
+        theta_a14 = -(4*m1**2 + m4**2)/(4*m1*m2 - 2*m1*m4 - 8*m1 + 4*m4)
+        theta_a15 = (-4*m1**2 + 4*m1 - m2*m4 - m4**2/2 + 2*m4)/(2*m1*m2 - m1*m4 - 4*m1 + 2*m4)
+        # subdomains 7
         theta_a0 = - (m2 - 2)/m1 - (2*(2*m1 - 2)*(m1 - 1))/(m1*(m2 - 2)) #K11
         theta_a1 = -m1/(m2 - 2) #K22
         theta_a2 = -(2*(m1 - 1))/(m2 - 2) #K12 and K21
-        # subdomains 2 and 8
+        # subdomains 2
+        theta_a16 = -m2 + m4 + (m1 - 1)**2/(-m2 + m4 + 2) + 2
+        theta_a17 = 1/(-m2 + m4 + 2)
+        theta_a18 = (-m1 + 1)/(-m2 + m4 + 2)
+        # subdomains 8
         theta_a3 = 2 - (m1 - 1)*(m1 - 1)/(m2 - 2) - m2
         theta_a4 = -1/(m2 - 2)
         theta_a5 = (m1 - 1)/(m2 - 2)
-        # subdomains 3 and 5
+        # subdomains 5
+        theta_a19 = (-m2 + m4/2)/(m1 - 2)
+        theta_a20 = (4*(m1 - 2)**2 + (-4*m2 + 3*m4 + 4)**2)*(-2*m1*m2 + m1*m4 + 4*m2 - 2*m4)/(2*(m1 - 2)**2*(2*m2 - m4)**2)
+        theta_a21 = (4*m2 - 3*m4 - 4)/(2*(m1 - 2))
+        # subdomains 3
         theta_a6 = -m2/(m1 - 2)
         theta_a7 = - (m1 - 2)/m2 - (2*(2*m2 - 2)*(m2 - 1))/(m2*(m1 - 2))
         theta_a8 = -(2*(m2 - 1))/(m1 - 2)
@@ -83,7 +95,8 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         # boundaries 5, 6, 7 and 8
         theta_a12 = m3
 
-        return (theta_a0, theta_a1, theta_a2, theta_a3, theta_a4, theta_a5, theta_a6, theta_a7, theta_a8, theta_a9, theta_a10, theta_a11, theta_a12)
+        return (theta_a0, theta_a1, theta_a2, theta_a3, theta_a4, theta_a5, theta_a6, theta_a7, theta_a8, theta_a9, theta_a10, theta_a11, theta_a12,
+        theta_a13,theta_a14,theta_a15,theta_a16,theta_a17,theta_a18,theta_a19,theta_a20,theta_a21)
 
     ## Set theta multiplicative terms of the affine expansion of f.
     def compute_theta_f(self):
@@ -102,18 +115,30 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         v = self.v
         dx = self.dx
         ds = self.ds
-        # subdomains 1 and 7
-        a0 = inner(u.dx(0), v.dx(0))*dx(1) +  inner(u.dx(0), v.dx(0))*dx(7)
-        a1 = inner(u.dx(1), v.dx(1))*dx(1) +  inner(u.dx(1), v.dx(1))*dx(7)
-        a2 = inner(u.dx(0), v.dx(1))*dx(1) +  inner(u.dx(1), v.dx(0))*dx(1) - (inner(u.dx(0), v.dx(1))*dx(7) +  inner(u.dx(1), v.dx(0))*dx(7))
-        # subdomains 2 and 8
-        a3 = inner(u.dx(0), v.dx(0))*dx(2) +  inner(u.dx(0), v.dx(0))*dx(8)
-        a4 = inner(u.dx(1), v.dx(1))*dx(2) +  inner(u.dx(1), v.dx(1))*dx(8)
-        a5 = inner(u.dx(0), v.dx(1))*dx(2) +  inner(u.dx(1), v.dx(0))*dx(2) - (inner(u.dx(0), v.dx(1))*dx(8) +  inner(u.dx(1), v.dx(0))*dx(8))
-        # subdomains 3 and 5
+        # subdomains 1
+        a13 = inner(u.dx(0), v.dx(0))*dx(1)
+        a14 = inner(u.dx(1), v.dx(1))*dx(1)
+        a15 = inner(u.dx(0), v.dx(1))*dx(1) +  inner(u.dx(1), v.dx(0))*dx(1)
+        # subdomains 7
+        a0 = inner(u.dx(0), v.dx(0))*dx(7)
+        a1 = inner(u.dx(1), v.dx(1))*dx(7)
+        a2 =  - (inner(u.dx(0), v.dx(1))*dx(7) +  inner(u.dx(1), v.dx(0))*dx(7))
+        # subdomains 2
+        a16 = inner(u.dx(0), v.dx(0))*dx(2)
+        a17 = inner(u.dx(0), v.dx(0))*dx(2)
+        a18 = inner(u.dx(0), v.dx(1))*dx(2) +  inner(u.dx(1), v.dx(0))*dx(2)
+        # subdomains 8
+        a3 = inner(u.dx(0), v.dx(0))*dx(8)
+        a4 = inner(u.dx(1), v.dx(1))*dx(8)
+        a5 = - (inner(u.dx(0), v.dx(1))*dx(8) +  inner(u.dx(1), v.dx(0))*dx(8))
+        # subdomains 3
+        a19 = inner(u.dx(0), v.dx(0))*dx(3)
+        a20 = inner(u.dx(1), v.dx(1))*dx(3)
+        a21 = inner(u.dx(0), v.dx(1))*dx(3) +  inner(u.dx(1), v.dx(0))*dx(3)
+        # subdomains 5
         a6 = inner(u.dx(0), v.dx(0))*dx(3) +  inner(u.dx(0), v.dx(0))*dx(5)
         a7 = inner(u.dx(1), v.dx(1))*dx(3) +  inner(u.dx(1), v.dx(1))*dx(5)
-        a8 = inner(u.dx(0), v.dx(1))*dx(3) +  inner(u.dx(1), v.dx(0))*dx(3) - (inner(u.dx(0), v.dx(1))*dx(5) +  inner(u.dx(1), v.dx(0))*dx(5))
+        a8 = - (inner(u.dx(0), v.dx(1))*dx(5) +  inner(u.dx(1), v.dx(0))*dx(5))
         # subdomains 4 and 6
         a9 = inner(u.dx(0), v.dx(0))*dx(4) +  inner(u.dx(0), v.dx(0))*dx(6)
         a10 = inner(u.dx(1), v.dx(1))*dx(4) +  inner(u.dx(1), v.dx(1))*dx(6)
@@ -135,6 +160,15 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         A10 = assemble(a10)
         A11 = assemble(a11)
         A12 = assemble(a12)
+        A13 = assemble(a13)
+        A14 = assemble(a14)
+        A15 = assemble(a15)
+        A16 = assemble(a16)
+        A17 = assemble(a17)
+        A18 = assemble(a18)
+        A19 = assemble(a19)
+        A20 = assemble(a20)
+        A21 = assemble(a21)
         return (A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12)
 
     ## Set vectors resulting from the truth discretization of f.
