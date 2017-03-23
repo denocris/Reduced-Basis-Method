@@ -200,9 +200,9 @@ class Graetz(ShapeParametrization(EllipticCoerciveRBNonCompliantBase)):
 
     ## Preprocess the solution before plotting to add a lifting
     def preprocess_solution_for_plot(self, solution):
-        solution_with_lifting = Function(self.V)
-        solution_with_lifting.vector()[:] = solution.vector()[:] + self.lifting.vector()[:]
-        return solution_with_lifting
+        #solution_with_lifting = Function(self.V)
+        #solution_with_lifting.vector()[:] = solution.vector()[:] + self.lifting.vector()[:]
+        return solution
 
     #  @}
     ########################### end - I/O - end ###########################
