@@ -25,22 +25,22 @@
 from dolfin import *
 from RBniCS import *
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 4: GRAETZ CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 4: GRAETZ CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 class Graetz(ShapeParametrization(EllipticCoerciveRBNonCompliantBase)):
-    
-    ###########################     CONSTRUCTORS     ########################### 
+
+    ###########################     CONSTRUCTORS     ###########################
     ## @defgroup Constructors Methods related to the construction of the reduced order model object
     #  @{
-    
+
     ## Default initialization of members
     def __init__(self, V, mesh, subd, bound):
         # Store the BC object for the homogeneous solution (after lifting)
         bc_list = [
             DirichletBC(V, 0.0, bound, 1), # indeed homog. bcs
             DirichletBC(V, 0.0, bound, 5), # indeed homog. bcs
-            DirichletBC(V, 0.0, bound, 6), # indeed homog. bcs
-            DirichletBC(V, 0.0, bound, 2), # non-homog. bcs with a lifting
-            DirichletBC(V, 0.0, bound, 4)  # non-homog. bcs with a lifting
+            DirichletBC(V, 0.0, bound, 6) # indeed homog. bcs
+            #DirichletBC(V, 0.0, bound, 2), # non-homog. bcs with a lifting
+            #DirichletBC(V, 0.0, bound, 4)  # non-homog. bcs with a lifting
         ]
         # Declare the shape parametrization map
         shape_parametrization_expression = [
@@ -52,43 +52,21 @@ class Graetz(ShapeParametrization(EllipticCoerciveRBNonCompliantBase)):
         # ... and also store FEniCS data structures for assembly
         self.dx = Measure("dx")(subdomain_data=subd)
         self.ds = Measure("ds")(subdomain_data=bound)
-        # We will consider non-homogeneous Dirichlet BCs with a lifting.
-        # First of all, assemble a suitable lifting function
-        lifting_bc = [ 
-            DirichletBC(V, 0.0, bound, 1), # homog. bcs
-            DirichletBC(V, 0.0, bound, 5), # homog. bcs
-            DirichletBC(V, 0.0, bound, 6), # homog. bcs
-            DirichletBC(V, 1.0, bound, 2), # non-homog. bcs
-            DirichletBC(V, 1.0, bound, 4)  # non-homog. bcs
-        ]
-        u = self.u
-        v = self.v
-        dx = self.dx
-        lifting_a = inner(grad(u),grad(v))*dx
-        lifting_A = assemble(lifting_a)
-        lifting_f = 1e-15*v*dx
-        lifting_F = assemble(lifting_f)
-        [bc.apply(lifting_A) for bc in lifting_bc] # Apply BCs on LHS
-        [bc.apply(lifting_F) for bc in lifting_bc] # Apply BCs on RHS
-        lifting = Function(V)
-        solve(lifting_A, lifting.vector(), lifting_F)
-        # Discard the lifting_{bc, A, F} object and store only the lifting function
-        self.lifting = lifting
-        self.export_basis(self.lifting, self.basis_folder + "lifting")
+
         # Store the velocity expression
         self.vel = Expression("x[1]*(1-x[1])", degree=self.V.ufl_element().degree())
         # Finally, initialize an SCM object to approximate alpha LB
         self.SCM_obj = SCM_Graetz(self)
-        
+
     #  @}
-    ########################### end - CONSTRUCTORS - end ########################### 
-    
-    ###########################     SETTERS     ########################### 
+    ########################### end - CONSTRUCTORS - end ###########################
+
+    ###########################     SETTERS     ###########################
     ## @defgroup Setters Set properties of the reduced order approximation
     #  @{
-    
+
     # Propagate the values of all setters also to the SCM object
-    
+
     def setNmax(self, nmax):
         EllipticCoerciveRBNonCompliantBase.setNmax(self, nmax)
         self.SCM_obj.setNmax(2*nmax)
@@ -107,18 +85,18 @@ class Graetz(ShapeParametrization(EllipticCoerciveRBNonCompliantBase)):
     def setmu(self, mu):
         EllipticCoerciveRBNonCompliantBase.setmu(self, mu)
         self.SCM_obj.setmu(mu)
-        
+
     #  @}
-    ########################### end - SETTERS - end ########################### 
-    
-    ###########################     PROBLEM SPECIFIC     ########################### 
+    ########################### end - SETTERS - end ###########################
+
+    ###########################     PROBLEM SPECIFIC     ###########################
     ## @defgroup ProblemSpecific Problem specific methods
     #  @{
-    
+
     ## Return the alpha_lower bound.
     def get_alpha_lb(self):
         return self.SCM_obj.get_alpha_LB(self.mu)
-    
+
     ## Set theta multiplicative terms of the affine expansion of a.
     def compute_theta_a(self):
         mu1 = self.mu[0]
@@ -128,21 +106,23 @@ class Graetz(ShapeParametrization(EllipticCoerciveRBNonCompliantBase)):
         theta_a2 = mu1*mu2
         theta_a3 = 1.0
         return (theta_a0, theta_a1, theta_a2, theta_a3)
-    
+
     ## Set theta multiplicative terms of the affine expansion of f.
     def compute_theta_f(self):
         mu1 = self.mu[0]
         mu2 = self.mu[1]
-        theta_f0 = - mu2
-        theta_f1 = - mu2/mu1
-        theta_f2 = - mu1*mu2
-        theta_f3 = - 1.0
-        return (theta_f0, theta_f1, theta_f2, theta_f3)
-        
+        mu3 = self.mu[2]
+        theta_f0 = - mu3
+        # theta_f0 = - mu2
+        # theta_f1 = - mu2/mu1
+        # theta_f2 = - mu1*mu2
+        # theta_f3 = - 1.0
+        return (theta_f0,)
+
     ## Set theta multiplicative terms of the affine expansion of s.
     def compute_theta_s(self):
         return (1.0,)
-    
+
     ## Set matrices resulting from the truth discretization of a.
     def assemble_truth_a(self):
         u = self.u
@@ -161,26 +141,28 @@ class Graetz(ShapeParametrization(EllipticCoerciveRBNonCompliantBase)):
         A3 = assemble(a3)
         # Return
         return (A0, A1, A2, A3)
-    
+
     ## Set vectors resulting from the truth discretization of f.
     def assemble_truth_f(self):
         v = self.v
-        dx = self.dx
+        ds = self.ds
         vel = self.vel
-        lifting = self.lifting
+        #lifting = self.lifting
         # Define
-        f0 = inner(grad(lifting),grad(v))*dx(1) + 1e-15*lifting*v*dx
-        f1 = lifting.dx(0)*v.dx(0)*dx(2) + 1e-15*lifting*v*dx
-        f2 = lifting.dx(1)*v.dx(1)*dx(2) + 1e-15*lifting*v*dx
-        f3 = vel*lifting.dx(0)*v*dx(1) + vel*lifting.dx(0)*v*dx(2) + 1e-15*lifting*v*dx
+        f0 = v * ds(2) + v * ds(4)
+        #f0 = inner(grad(lifting),grad(v))*dx(1) + 1e-15*lifting*v*dx
+        #f1 = lifting.dx(0)*v.dx(0)*dx(2) + 1e-15*lifting*v*dx
+        #f2 = lifting.dx(1)*v.dx(1)*dx(2) + 1e-15*lifting*v*dx
+        #f3 = vel*lifting.dx(0)*v*dx(1) + vel*lifting.dx(0)*v*dx(2) + 1e-15*lifting*v*dx
         # Assemble
         F0 = assemble(f0)
-        F1 = assemble(f1)
-        F2 = assemble(f2)
-        F3 = assemble(f3)
+        # F0 = assemble(f0)
+        # F1 = assemble(f1)
+        # F2 = assemble(f2)
+        # F3 = assemble(f3)
         # Return
-        return (F0, F1, F2, F3)
-        
+        return (F0,)
+
     ## Set vectors resulting from the truth discretization of s.
     def assemble_truth_s(self):
         v = self.v
@@ -188,18 +170,18 @@ class Graetz(ShapeParametrization(EllipticCoerciveRBNonCompliantBase)):
 #        s0 = v*ds(3)
         dx = self.dx
         s0 = v*dx(2)
-        
+
         # Assemble and return
         S0 = assemble(s0)
         return (S0,)
-        
+
     #  @}
-    ########################### end - PROBLEM SPECIFIC - end ########################### 
-    
-    ###########################     OFFLINE STAGE     ########################### 
+    ########################### end - PROBLEM SPECIFIC - end ###########################
+
+    ###########################     OFFLINE STAGE     ###########################
     ## @defgroup OfflineStage Methods related to the offline stage
     #  @{
-    
+
     ## Perform the offline phase of the reduced order model
     def offline(self):
         # Perform first the SCM offline phase, ...
@@ -208,76 +190,76 @@ class Graetz(ShapeParametrization(EllipticCoerciveRBNonCompliantBase)):
         # ..., and then call the parent method.
         self.setmu(bak_first_mu)
         EllipticCoerciveRBNonCompliantBase.offline(self)
-    
+
     #  @}
-    ########################### end - OFFLINE STAGE - end ########################### 
-    
-    ###########################     I/O     ########################### 
+    ########################### end - OFFLINE STAGE - end ###########################
+
+    ###########################     I/O     ###########################
     ## @defgroup IO Input/output methods
     #  @{
-    
+
     ## Preprocess the solution before plotting to add a lifting
     def preprocess_solution_for_plot(self, solution):
         solution_with_lifting = Function(self.V)
         solution_with_lifting.vector()[:] = solution.vector()[:] + self.lifting.vector()[:]
         return solution_with_lifting
-        
+
     #  @}
-    ########################### end - I/O - end ########################### 
-    
-    ###########################     ERROR ANALYSIS     ########################### 
+    ########################### end - I/O - end ###########################
+
+    ###########################     ERROR ANALYSIS     ###########################
     ## @defgroup ErrorAnalysis Error analysis
     #  @{
-    
+
     # Compute the error of the reduced order approximation with respect to the full order one
     # over the test set
     def error_analysis(self, N=None):
         # Perform first the SCM error analysis, ...
         self.SCM_obj.error_analysis()
         # ..., and then call the parent method.
-        EllipticCoerciveRBNonCompliantBase.error_analysis(self, N)        
-        
+        EllipticCoerciveRBNonCompliantBase.error_analysis(self, N)
+
     #  @}
-    ########################### end - ERROR ANALYSIS - end ########################### 
-    
-#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 4: SCM CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+    ########################### end - ERROR ANALYSIS - end ###########################
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 4: SCM CLASS     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 class SCM_Graetz(SCM):
-    
-    ###########################     CONSTRUCTORS     ########################### 
+
+    ###########################     CONSTRUCTORS     ###########################
     ## @defgroup Constructors Methods related to the construction of the reduced order model object
     #  @{
-    
+
     ## Default initialization of members
     def __init__(self, parametrized_problem):
         # Call the standard initialization
         SCM.__init__(self, parametrized_problem)
-        
+
         # Good guesses to help convergence of bounding box
         self.guess_bounding_box_minimum = (1.e-5, 1.e-5, 1.e-5, 1.e-5)
         self.guess_bounding_box_maximum = (1., 1., 1., 1.)
-    
+
     #  @}
-    ########################### end - CONSTRUCTORS - end ########################### 
-    
-    ###########################     PROBLEM SPECIFIC     ########################### 
+    ########################### end - CONSTRUCTORS - end ###########################
+
+    ###########################     PROBLEM SPECIFIC     ###########################
     ## @defgroup ProblemSpecific Problem specific methods
     #  @{
-    
+
     ## Set additional options for the eigensolver (bounding box minimum)
     def set_additional_eigensolver_options_for_bounding_box_minimum(self, eigensolver, qa):
         eigensolver.parameters["spectral_transform"] = "shift-and-invert"
         eigensolver.parameters["spectral_shift"] = self.guess_bounding_box_minimum[qa]
-        
+
     ## Set additional options for the eigensolver (bounding box maximimum)
     def set_additional_eigensolver_options_for_bounding_box_maximum(self, eigensolver, qa):
         eigensolver.parameters["spectral_transform"] = "shift-and-invert"
         eigensolver.parameters["spectral_shift"] = self.guess_bounding_box_maximum[qa]
-        
+
     #  @}
-    ########################### end - PROBLEM SPECIFIC - end ########################### 
+    ########################### end - PROBLEM SPECIFIC - end ###########################
 
 
-#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 4: MAIN PROGRAM     ~~~~~~~~~~~~~~~~~~~~~~~~~# 
+#~~~~~~~~~~~~~~~~~~~~~~~~~     EXAMPLE 4: MAIN PROGRAM     ~~~~~~~~~~~~~~~~~~~~~~~~~#
 
 # 1. Read the mesh for this problem
 mesh = Mesh("data/graetz.xml")
@@ -294,17 +276,17 @@ graetz = Graetz(V, mesh, subd, bound)
 parameters.linear_algebra_backend = 'PETSc'
 
 # 5. Set mu range, xi_train and Nmax
-mu_range = [(0.01, 10.0), (0.01, 10.0)]
+mu_range = [(0.01, 10.0), (0.01, 10.0), (-1.0,1.0)]
 graetz.setmu_range(mu_range)
 graetz.setxi_train(100)
 graetz.setNmax(10)
 
 # 6. Perform the offline phase
-first_mu = (1.0, 1.0)
+first_mu = (1.0, 1.0, 0.30)
 graetz.setmu(first_mu)
-#graetz.offline()
+graetz.offline()
 
 # 7. Perform an online solve
-online_mu = (10.0, 0.01)
+online_mu = (10.0, 0.01, 0.30)
 graetz.setmu(online_mu)
 graetz.online_solve()

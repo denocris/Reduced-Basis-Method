@@ -136,8 +136,8 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         a20 = inner(u.dx(1), v.dx(1))*dx(3)
         a21 = inner(u.dx(0), v.dx(1))*dx(3) +  inner(u.dx(1), v.dx(0))*dx(3)
         # subdomains 5
-        a6 = inner(u.dx(0), v.dx(0))*dx(3) +  inner(u.dx(0), v.dx(0))*dx(5)
-        a7 = inner(u.dx(1), v.dx(1))*dx(3) +  inner(u.dx(1), v.dx(1))*dx(5)
+        a6 = inner(u.dx(0), v.dx(0))*dx(5)
+        a7 = inner(u.dx(1), v.dx(1))*dx(5)
         a8 = - (inner(u.dx(0), v.dx(1))*dx(5) +  inner(u.dx(1), v.dx(0))*dx(5))
         # subdomains 4 and 6
         a9 = inner(u.dx(0), v.dx(0))*dx(4) +  inner(u.dx(0), v.dx(0))*dx(6)
@@ -169,7 +169,8 @@ class Hole(ShapeParametrization(EllipticCoercivePODBase)):
         A19 = assemble(a19)
         A20 = assemble(a20)
         A21 = assemble(a21)
-        return (A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12)
+        return (A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14,
+        A15, A16, A17, A18, A19, A20, A21)
 
     ## Set vectors resulting from the truth discretization of f.
     def assemble_truth_f(self):
